@@ -5,12 +5,12 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
+import java.awt.image.RasterFormatException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFrame;
 
 import mariobros.entity.Entity;
-import supermariobros.entity.mob.Player;
 import supermariobros.gfx.Sprite;
 import supermariobros.gfx.SpriteSheet;
 import supermariobros.input.KeyInput;
@@ -30,22 +30,31 @@ public class Game extends Canvas implements Runnable {
     public static Camera cam;
 
     public static SpriteSheet mario;
-    public static SpriteSheet goomba;
-    public static SpriteSheet koopa;
+    public static SpriteSheet goomba_sheet;
+    public static SpriteSheet koopa_sheet;
 
     public static SpriteSheet blocks;
     public static SpriteSheet ground;
     public static SpriteSheet tube;
+    public static SpriteSheet items;
+    public static SpriteSheet special_block;
 
+    public static Sprite background;
     public static Sprite grass;
     public static Sprite sand;
     public static Sprite brick;
-    public static Sprite special;
+    public static Sprite[] special = new Sprite[5];
     public static Sprite solid;
-    public static Sprite[] top_tube = new Sprite[2];
-    public static Sprite[] bottom_tube = new Sprite[2];
+    public static Sprite top_tube;
+    public static Sprite bottom_tube;
 
-    public static Sprite player[] = new Sprite[4];
+    public static Sprite[][] player = new Sprite[4][7];
+    public static Sprite[][] goomba = new Sprite[2][2];
+
+    public static Sprite[] koopa = new Sprite[2];
+
+    public static Sprite[] shell = new Sprite[3];
+    public static Sprite mushroom;
 
     public Game() {
         Dimension size = new Dimension(WIDTH * SCALE, HEIGHT * SCALE);
@@ -60,6 +69,11 @@ public class Game extends Canvas implements Runnable {
         blocks=new SpriteSheet("/resources/images/map/Blocks.png");
         ground=new SpriteSheet("/resources/images/map/Ground.png");
         tube=new SpriteSheet("/resources/images/map/Tube.png");
+        items=new SpriteSheet("/resources/images/map/Items.png");
+        special_block=new SpriteSheet("/resources/images/map/Special_Block.png");
+        goomba_sheet=new SpriteSheet("/resources/images/enemies/GoombaSheet.png");
+        koopa_sheet=new SpriteSheet("/resources/images/enemies/KoopaSheet.png");
+        background=new Sprite(new SpriteSheet("/resources/images/map/Sky_background.png"),0,0,500);
         cam = new Camera();
         addKeyListener(new KeyInput());
 
@@ -67,17 +81,43 @@ public class Game extends Canvas implements Runnable {
         grass=new Sprite(ground,0,0, 16);
         sand=new Sprite(ground,0,1, 16);
         solid=new Sprite(blocks,1,0, 16);
-        for (int i = 0; i<top_tube.length;i++){
-            top_tube[i]=new Sprite(tube,i,0, 16);
-            bottom_tube[i]=new Sprite(tube,(i+2),0, 16);
+        mushroom=new Sprite(items,0,0, 16);
+
+        top_tube=new Sprite(tube,0,0, 24);
+        bottom_tube=new Sprite(tube,1,0, 24);
+
+        for (int i = 0; i<special.length;i++){
+            special[i]=new Sprite(special_block,i,0, 16);
         }
 
 
-        for (int i = 0; i < player.length; i++) {
-            player[i]=new Sprite(mario,i,0,16);
+
+
+        for (int c=0;c<player.length;c++){
+            for (int r=0;r<player[0].length-1;r++){
+                if(r<2){
+                        player[c][r]=new Sprite(mario,c,r,16);
+                }
+                else{
+                        player[c][r]=new Sprite(mario,c,r-1,32);
+                }
+            }
         }
-        
-        //handler.addEntity(new Player(400,700,64,64,true,Id.player,handler));
+
+
+        for (int c=0;c<goomba[0].length;c++){
+            for (int r=0;r<goomba.length;r++){
+                    goomba[r][c]=new Sprite(goomba_sheet,c,0,18);
+            }
+        }
+
+        for (int i = 0; i<koopa.length;i++){
+            koopa[i]=new Sprite(koopa_sheet,i,0, 28);
+        }
+
+        for (int i = 0; i<shell.length;i++){
+            shell[i]=new Sprite(koopa_sheet,i,1, 18);
+        }
     }
     
     public synchronized void start() {
@@ -134,8 +174,8 @@ public class Game extends Canvas implements Runnable {
             return;
         }
         Graphics g = bs.getDrawGraphics();
-        g.setColor(Color.BLACK);
-        g.fillRect(0,0,getWidth(),getHeight());
+        /*g.setColor(Color.BLACK);
+        g.fillRect(0,0,getWidth(),getHeight());*/
         g.translate(cam.getX(),cam.getY());
         handler.render(g);
         g.dispose();

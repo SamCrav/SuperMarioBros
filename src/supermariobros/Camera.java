@@ -6,17 +6,13 @@ package supermariobros;
 
 import mariobros.entity.Entity;
 
-/**
- *
- * @author Andrea
- */
 public class Camera {
 
     public int x, y;
 
     public void tick(Entity player ){
         setX(-player.getX() + Game.WIDTH);
-        setY(-player.getY() + Game.HEIGHT*3);
+        setY(-Game.HEIGHT-64);
     }
 
     public void setX(int x) {

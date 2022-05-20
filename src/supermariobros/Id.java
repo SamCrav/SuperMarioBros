@@ -4,10 +4,6 @@
  */
 package supermariobros;
 
-/**
- *
- * @author Andrea
- */
 public enum Id {
-    player,wall,mushroom,goomba; 
+    player,wall,mushroom,goomba,koopa,special,brick,tube;
 }

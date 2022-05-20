@@ -4,10 +4,7 @@ import java.awt.Graphics;
 import java.awt.Rectangle;
 import supermariobros.Handler;
 import supermariobros.Id;
-/**
- *
- * @author Utente
- */
+
 public abstract class Tile 
 {
     public int x,y;

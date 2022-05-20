@@ -2,16 +2,19 @@ package mariobros.entity;
 
 import java.awt.Graphics;
 import java.awt.Rectangle;
+
+import supermariobros.Game;
 import supermariobros.Handler;
 import supermariobros.Id;
 
 
-public abstract class Entity 
+public class Entity
 {
     public int x,y;
     public int width, height;
     public int facing=0;
-    
+
+    public int status =0;
     
     public int frame=0;
     public int frameDelay=0;
@@ -120,7 +123,7 @@ public abstract class Entity
         return new Rectangle(getX()+10,getY(),width-20,5);
     }
     
-    public abstract void render(Graphics g);
+    public void render(Graphics g){};
     
-    public abstract void tick();
+    public void tick(){};
 }

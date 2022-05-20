@@ -7,10 +7,6 @@ package supermariobros.gfx;
 
 import java.awt.image.BufferedImage;
 
-/**
- *
- * @author fumagalli_andrea04
- */
 public class Sprite {
 
     public SpriteSheet sheet;
@@ -18,7 +14,12 @@ public class Sprite {
     public BufferedImage image;
     
     public Sprite(SpriteSheet sheet, int x, int y, int dim) {
-        if(dim==16)image=sheet.getSmallSprite(x, y);
+        if(dim==16)image=sheet.getSmallSprite(x, y, dim);
+        else if(dim==17) image=sheet.getShellSprite(x);
+        else if(dim==18) image=sheet.getSmallSprite(x, y, dim);
+        else if(dim==24) image=sheet.getTubeSprite(x, y);
+        else if(dim==28) image=sheet.getKoopaSprite(x, y);
+        else if(dim>200) image=sheet.getBackGround();
         else image=sheet.getSprite(x, y);
     }
     

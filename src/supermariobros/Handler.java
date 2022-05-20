@@ -8,19 +8,14 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import mariobros.entity.Entity;
+import supermariobros.entity.mob.Goomba;
+import supermariobros.entity.mob.Koopa;
 import supermariobros.entity.mob.Player;
 import supermariobros.gfx.SpriteSheet;
-import supermariobros.tile.Grass;
-import supermariobros.tile.Sand;
-import supermariobros.tile.Tile;
-import supermariobros.tile.Wall;
+import supermariobros.tile.*;
 
 import javax.imageio.ImageIO;
 
-/**
- *
- * @author lainati_samuele
- */
 public class Handler 
 {
     public LinkedList<Entity> entity=new LinkedList<Entity>();
@@ -40,6 +35,7 @@ public class Handler
 
     public void render(Graphics g)
     {
+        g.drawImage(Game.background.getBufferedImage().getScaledInstance(1080,772,0),-Game.cam.getX(),-Game.cam.getY(),null);
         for(Entity en:entity)
         {
             en.render(g);
@@ -94,10 +90,16 @@ public class Handler
                 int green = (pixel >> 8) & 0xff;
                 int blue = (pixel) & 0xff;
 
-                if(red==0&&green==0&&blue==1)addTile(new Wall(x*64,y*64, 64,64,true,Id.wall,this));
+                if(red==0&&green==0&&blue==1)addTile(new Brick(x*64,y*64, 64,64,true,Id.brick,this));
                 if(red==0&&green==255&&blue==0)addTile(new Grass(x*64,y*64, 64,64,true,Id.wall,this));
                 if(red==221&&green==255&&blue==0)addTile(new Sand(x*64,y*64, 64,64,true,Id.wall,this));
                 if(red==255&&green==255&&blue==255)addEntity(new Player(x*64,y*64,64,64,true,Id.player,this));
+                if(red==255&&green==244&&blue==0)addTile(new Special(x*64,y*64,64,64,true,Id.special,this));
+                if(red==64&&green==64&&blue==64)addTile(new Wall(x*64,y*64,64,64,true,Id.wall,this));
+                if(red==0&&green==0&&blue==255)addTile(new Top_Tube(x*64,y*64,128,64,true,Id.tube,this));
+                if(red==0&&green==0&&blue==239)addTile(new Bottom_Tube(x*64,y*64,128,64,true,Id.tube,this));
+                if(red==255&&green==0&&blue==0)addEntity(new Goomba(x*64,(y-1)*64,64,64,true,Id.goomba,this));
+                if(red==240&&green==0&&blue==0)addEntity(new Koopa(x*64,(y-1)*64,64,96,true,Id.koopa,this));
             }
         }
     }

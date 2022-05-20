@@ -11,10 +11,6 @@ import supermariobros.Game;
 import supermariobros.Handler;
 import supermariobros.Id;
 
-/**
- *
- * @author Andrea
- */
 public class Wall extends Tile{
 
     public Wall(int x, int y, int width, int height, boolean solid, Id id, Handler handler) {
@@ -23,7 +19,7 @@ public class Wall extends Tile{
     
     @Override
     public void render(Graphics g) {
-        g.drawImage(Game.brick.getBufferedImage(), x, y, width, height, null);
+        g.drawImage(Game.solid.getBufferedImage(), x, y, width, height, null);
     }
 
     @Override

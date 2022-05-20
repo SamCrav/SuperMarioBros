@@ -9,10 +9,6 @@ import java.awt.event.KeyListener;
 import mariobros.entity.Entity;
 import supermariobros.Game;
 
-/**
- *
- * @author Andrea
- */
 public class KeyInput implements KeyListener {
 
     @Override
@@ -27,21 +23,21 @@ public class KeyInput implements KeyListener {
         {
             switch (key) {
                 case KeyEvent.VK_W:
-                    if(!en.jumping&&!en.falling)
+                    if(!en.jumping)
                     {
                         en.jumping=true;
-                        en.gravity=10.0;
+                        en.gravity=8.0;
                     }
                     break;
                 case KeyEvent.VK_A:
-                    en.setVelX(-5);
+                    en.setVelX(-10);
                     en.facing=0;
                     break;
                 /*case KeyEvent.VK_S:
                     en.setVelY(-5);
                     break;*/
                 case KeyEvent.VK_D:
-                    en.setVelX(5);
+                    en.setVelX(10);
                     en.facing=1;
                     break;
             }
@@ -54,9 +50,9 @@ public class KeyInput implements KeyListener {
         for (Entity en : Game.handler.entity)
         {
             switch (key) {
-                /*case KeyEvent.VK_W:
+                case KeyEvent.VK_W:
                     en.setVelY(0);
-                    break;*/
+                    break;
                 case KeyEvent.VK_A:
                     en.setVelX(0);
                     break;
