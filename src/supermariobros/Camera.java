@@ -27,13 +27,13 @@ public class Camera {
     public int y;
 
     /**
-        @brief aggiorna camera
-
-        viene richiamato ogni tick per aggiornare la posizione della visuale
-
-        la visuale viene aggiornata
-
-        @param player giocatore
+     * @brief aggiorna camera
+     *
+     * viene richiamato ogni tick per aggiornare la posizione della visuale
+     *
+     * la visuale viene aggiornata
+     *
+     * @param player giocatore
     **/
     public void tick(Entity player ){
         if(-player.getX() + Game.WIDTH>0){
@@ -49,52 +49,52 @@ public class Camera {
     }
 
     /**
-     @brief setter di x
-
-     cambia il valore dell'attributo x
-
-     riposiziona la visuale
-
-     @param x nuova posizione sull'asse x
+     * @brief setter di x
+     *
+     * cambia il valore dell'attributo x
+     *
+     * riposiziona la visuale
+     *
+     * @param x nuova posizione sull'asse x
      **/
     public void setX(int x) {
         this.x = x;
     }
 
     /**
-     @brief setter di y
-
-     cambia il valore dell'attributo y
-
-     riposiziona la visuale
-
-     @param y nuova posizione sull'asse y
+     * @brief setter di y
+     *
+     * cambia il valore dell'attributo y
+     *
+     * riposiziona la visuale
+     *
+     * @param y nuova posizione sull'asse y
      **/
     public void setY(int y) {
         this.y = y;
     }
 
     /**
-     @brief getter di y
-
-     restituisce il valore dell'attributo y
-
-     nessun cambiamento
-
-     @return valore dell'attributo y
+     * @brief getter di y
+     *
+     * restituisce il valore dell'attributo y
+     *
+     * nessun cambiamento
+     *
+     * @return valore dell'attributo y
      **/
     public int getY() {
         return y;
     }
 
     /**
-     @brief getter di x
-
-     restituisce il valore dell'attributo x
-
-     nessun cambiamento
-
-     @return valore dell'attributo x
+     * @brief getter di x
+     *
+     * restituisce il valore dell'attributo x
+     *
+     * nessun cambiamento
+     *
+     * @return valore dell'attributo x
      **/
     public int getX() {
         return x;

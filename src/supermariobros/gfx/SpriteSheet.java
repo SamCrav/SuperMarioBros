@@ -17,11 +17,11 @@ public class SpriteSheet {
     private BufferedImage sheet;
 
     /**
-        @brief metodo SpriteSheet
-
-        usato try catch
-
-        @param path 
+     * @brief costruttore
+     *
+     * carica la spritesheet
+     *
+     * @param path
     **/
     public SpriteSheet(String path) {
         try {
@@ -32,81 +32,81 @@ public class SpriteSheet {
     }
     
     /**
-        @brief getter getSmallSprite
-        * 
-        * restituisce il valore di sheet.getSubimage
-        * 
-        * @param x orizzontale
-        * @param y verticale
-        * @param dim dimensione
-        * 
-        * @return sheet
+     * @brief getter getSmallSprite
+     *
+     * restituisce il valore di sheet.getSubimage
+     *
+     * @param x orizzontale
+     * @param y verticale
+     * @param dim dimensione
+     *
+     * @return sheet
     **/
     public BufferedImage getSmallSprite(int x, int y, int dim){
         return sheet.getSubimage(x*dim,y*dim,dim,dim);
     }
 
     /**
-        @brief getter getShellSprite
-        * 
-        * restituisce il valore di sheet.getSubimage
-        * 
-        * @param x orizzontale
-        * 
-        * @return sheet
+     * @brief getter getShellSprite
+     *
+     * restituisce il valore di sheet.getSubimage
+     *
+     * @param x orizzontale
+     *
+     * @return sheet
     **/
     public BufferedImage getShellSprite(int x){
         return sheet.getSubimage(x*18,28,18,18);
     }
     
     /**
-        @brief getter getSprite
-        * 
-        * restituisce il valore di sheet.getSubimage
-        * 
-        * @param x orizzontale
-        * @param y verticale
-        * 
-        * @return sheet
+     * @brief getter getSprite
+     *
+     * restituisce il valore di sheet.getSubimage
+     *
+     * @param x orizzontale
+     * @param y verticale
+     *
+     * @return sheet
     **/
     public BufferedImage getSprite(int x, int y){
         return sheet.getSubimage(x*16,y*32,16,32);
     }
 
     /**
-        @brief getter getTubeSprite
-        * 
-        * restituisce il valore di sheet.getSubimage
-        * 
-        * @param x orizzontale
-        * @param y verticale
-        * 
-        * @return sheet
+     * @brief getter getTubeSprite
+     *
+     * restituisce il valore di sheet.getSubimage
+     *
+     * @param x orizzontale
+     * @param y verticale
+     *
+     * @return sheet
     **/
     public BufferedImage getTubeSprite(int x, int y){
         return sheet.getSubimage(x*32,y*16,32,16);
     }
 
     /**
-        @brief getter getKoopaSprite
-        * 
-        * restituisce il valore di sheet.getSubimage
-        * 
-        * @param x orizzontale
-        * @param y verticale
-        * 
-        * @return sheet
+     * @brief getter getKoopaSprite
+     *
+     * restituisce il valore di sheet.getSubimage
+     *
+     * @param x orizzontale
+     * @param y verticale
+     *
+     * @return sheet
     **/
     public BufferedImage getKoopaSprite(int x, int y){
         return sheet.getSubimage(x*16,y*28,16,28);
     }
 
     /**
-        @brief getter getBackGround
-        * 
-        * restituisce il valore di sheet.getSubimage
-        * 
-        * @return sheet
+     * @brief getter getBackGround
+     *
+     * restituisce il valore di sheet.getSubimage
+     *
+     * @return sheet
     **/
     public BufferedImage getBackGround(){
         return sheet;

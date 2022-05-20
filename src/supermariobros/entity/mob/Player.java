@@ -1,27 +1,28 @@
 package supermariobros.entity.mob;
 
-import java.awt.Graphics;
 import mariobros.entity.Entity;
 import supermariobros.Game;
 import supermariobros.Handler;
 import supermariobros.Id;
 import supermariobros.tile.Tile;
 
+import java.awt.*;
+
 public class Player extends Entity {
 
-/**
-        @brief costruttore parametrico
-
-        inizializzato il costruttore Player
-
-        @param x orizzontale
-        @param y verticale
-        @param width larghezza
-        @param height lunghezza 
-        @param solid solido
-        @param id id
-        @param handler gestione
-    **/
+    /**
+     * @brief costruttore parametrico
+     *
+     * @param x       orizzontale
+     * @param y       verticale
+     * @param width   larghezza
+     * @param height  lunghezza
+     * @param solid   solido
+     * @param id      id
+     * @param handler gestione
+     *
+     * inizializzato il costruttore Player
+     **/
     public Player(int x, int y, int width, int height, boolean solid, Id id, Handler handler) {
         super(x, y, width, height, solid, id, handler);
         setVelX(0);
@@ -29,49 +30,55 @@ public class Player extends Entity {
 
     /**
      * setta lo status
-     * 
+     *
      * @param status
      */
-    public void setStatus(int status){
-        this.status=status;
+    public void setStatus(int status) {
+        this.status = status;
     }
 
-    //real
-    public void render(Graphics g){
+    /**
+     * @brief aggiorna grafica del giocatore
+     *
+     * visualizza il giocatore aggiornato
+     *
+     * @param g grafica
+     **/
+    public void render(Graphics g) {
         System.out.println(x);
         if (facing == 0) {
-            if(status==1){
-                g.drawImage(Game.player[frame+1][status].getBufferedImage(), x, y, width, height, null);
+            if (status == 1) {
+                g.drawImage(Game.player[frame + 1][status].getBufferedImage(), x, y, width, height, null);
+            } else {
+                g.drawImage(Game.player[frame + 2][status].getBufferedImage(), x, y, width, height, null);
             }
-            else{
-                g.drawImage(Game.player[frame+2][status].getBufferedImage(), x, y, width, height, null);
-            }
-
         } else if (facing == 1) {
             g.drawImage(Game.player[frame][status].getBufferedImage(), x, y, width, height, null);
         }
     }
 
+    /**
+     * @brief aggiorna l'entità
+     *
+     * aggiorna il giocatore
+     **/
     public void tick() {
         x += velX;
         y += velY;
-        if(y>=960)die();
+        if (y >= 960) die();
 
-        if(velX!=0)animate=true;
-        else animate=false;
+        if (velX != 0) animate = true;
+        else animate = false;
 
-        if(x<0)
-        {
-            x=0;
+        if (x < 0) {
+            x = 0;
             setVelX(0);
         }
-        if(x>13520)
-        {
-            x=13520;
+        if (x > 13520) {
+            x = 13520;
             setVelX(0);
         }
         for (Tile t : handler.tile) {
-//            Tile t = handler.tile.get(i);
             if (!t.solid) {
                 break;
             }
@@ -89,8 +96,7 @@ public class Player extends Entity {
                     if (falling) {
                         falling = false;
                     }
-                }
-                else if (!falling && !jumping) {
+                } else if (!falling && !jumping) {
                     gravity = 0.8;
                     falling = true;
                 }
@@ -103,22 +109,21 @@ public class Player extends Entity {
                         gravity = 0.8;
                         falling = true;
                     }
-                    t.status=1;
+                    t.status = 1;
                 }
                 if (getBoundsBottom().intersects(t.getBounds())) {
                     setVelY(0);
                     if (falling) {
                         falling = false;
                     }
-                }
-                else if (!falling && !jumping) {
+                } else if (!falling && !jumping) {
                     gravity = 0.8;
                     falling = true;
                 }
             }
             if (t.getID() == Id.brick) {
                 if (getBoundsTop().intersects(t.getBounds())) {
-                    if(status>1){
+                    if (status > 1) {
                         t.die();
                     }
                     setVelY(0);
@@ -133,8 +138,7 @@ public class Player extends Entity {
                     if (falling) {
                         falling = false;
                     }
-                }
-                else if (!falling && !jumping) {
+                } else if (!falling && !jumping) {
                     gravity = 0.8;
                     falling = true;
                 }
@@ -153,8 +157,7 @@ public class Player extends Entity {
                     if (falling) {
                         falling = false;
                     }
-                }
-                else if (!falling && !jumping) {
+                } else if (!falling && !jumping) {
                     gravity = 0.8;
                     falling = true;
                 }
@@ -165,38 +168,32 @@ public class Player extends Entity {
             }
             if (getBoundsRight().intersects(t.getBounds())) {
                 setVelX(0);
-                x = t.getX()-64;
+                x = t.getX() - 64;
             }
 
         }
-        handler.entity.forEach(e->{
-//        Entity e = handler.entity.get();
+        handler.entity.forEach(e -> {
 
             if (e.getId() == Id.mushroom) {
                 if (getBounds().intersects(e.getBounds())) {
                     int tpX = getX();
                     int tpY = getY();
-                    status=2;
-                    /*setX(tpX - width);
-                    setY(tpY - height);*/
+                    status = 2;
                     e.die();
                 }
             } else if (e.getId() == Id.goomba) {
-                if (getBoundsBottom().intersects(e.getBoundsTop()))
-                {
+                if (getBoundsBottom().intersects(e.getBoundsTop())) {
                     e.die();
-                }
-                else if(getBounds().intersects(e.getBounds()))
-                {
-                    if(status<2)die();
-                    else if(status==6) status-=4;
-                    else status-=2;
+                } else if (getBounds().intersects(e.getBounds())) {
+                    if (status < 2) die();
+                    else if (status == 6) status -= 4;
+                    else status -= 2;
 
                 }
             }
         });
         if (jumping) {
-            gravity-=0.1;
+            gravity -= 0.1;
             setVelY((int) -gravity);
             if (gravity <= 0.0) {
                 jumping = false;
@@ -208,12 +205,12 @@ public class Player extends Entity {
             setVelY((int) gravity);
         }
 
-        if(jumping){
-            frame=0;
-            status=1;
-        }else {
-            status=0;
-            if(animate){
+        if (jumping) {
+            frame = 0;
+            status = 1;
+        } else {
+            status = 0;
+            if (animate) {
                 frameDelay++;
                 if (frameDelay >= 6) {
                     frame++;
@@ -222,9 +219,8 @@ public class Player extends Entity {
                     }
                     frameDelay = 0;
                 }
-            }
-            else{
-                frame=0;
+            } else {
+                frame = 0;
             }
         }
     }

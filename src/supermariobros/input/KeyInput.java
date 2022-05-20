@@ -13,9 +13,9 @@ import supermariobros.Id;
 public class KeyInput implements KeyListener {
 
     /**
-        @brief KeytYped
-        * 
-        * @param e di tipo KeyEvent
+     * @brief KeytYped
+     *
+     * @param e di tipo KeyEvent
     **/
     @Override
     public void keyTyped(KeyEvent e) {
@@ -23,18 +23,18 @@ public class KeyInput implements KeyListener {
     }
 
     /**
-        @brief keyPressed, gestisce pressione tasto
-        * 
-        * gestisce la pressione di un tasto
-        * 
-        * @param e di tipo KeyEvent
+     * @brief keyPressed, gestisce pressione tasto
+     *
+     * gestisce la pressione di un tasto
+     *
+     * @param e di tipo KeyEvent
     **/
     @Override
     public void keyPressed(KeyEvent e) {
         int key = e.getKeyCode();
         for (Entity en : Game.handler.entity)
         {
-            if(en.getId()== Id.player){  //se l'id dell'entità è uguale a quello del giocatore
+            if(en.getId()== Id.player){
                 switch (key) {
                     case KeyEvent.VK_W:
                         if(!en.jumping) 
@@ -47,9 +47,6 @@ public class KeyInput implements KeyListener {
                         en.setVelX(-8);
                         en.facing=0;
                         break;
-                /*case KeyEvent.VK_S:
-                    en.setVelY(-5);
-                    break;*/
                     case KeyEvent.VK_D:
                         en.setVelX(8);
                         en.facing=1;
@@ -59,14 +56,13 @@ public class KeyInput implements KeyListener {
 
         }
     }
-
     
     /**
-        @brief keyReleased, gestisce pressione tasto
-        * 
-        * gestisce il rilascio di un tasto
-        * 
-        * @param e di tipo KeyEvent
+     * @brief keyReleased, gestisce pressione tasto
+     *
+     * gestisce il rilascio di un tasto
+     *
+     * @param e di tipo KeyEvent
     **/
     @Override
     public void keyReleased(KeyEvent e) {
@@ -78,11 +74,6 @@ public class KeyInput implements KeyListener {
                         en.setVelY(0);
                         break;
                     case KeyEvent.VK_A:
-                        en.setVelX(0);
-                        break;
-                /*case KeyEvent.VK_S:
-                    en.setVelY(0);
-                    break;*/
                     case KeyEvent.VK_D:
                         en.setVelX(0);
                         break;
