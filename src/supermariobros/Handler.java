@@ -3,7 +3,9 @@ package supermariobros;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -20,7 +22,7 @@ import javax.imageio.ImageIO;
 
 public class Handler 
 {
-    public LinkedList<Entity> entity=new LinkedList<Entity>();
+    public List<Entity> entity= Collections.synchronizedList(new LinkedList<Entity>());
     public LinkedList<Tile> tile=new LinkedList<Tile>();
 
     private BufferedImage level;
@@ -39,6 +41,8 @@ public class Handler
         }
 
         createLevel(level);
+
+
     }
 
     public void render(Graphics g)
@@ -56,10 +60,7 @@ public class Handler
     
     public void tick()
     {
-        for(Entity en:entity)
-        {
-            en.tick();
-        }
+        entity.forEach(en -> {en.tick();});
         for(Tile t:tile)
         {
             t.tick();

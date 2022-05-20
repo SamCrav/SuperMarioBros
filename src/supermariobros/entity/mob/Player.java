@@ -16,8 +16,13 @@ public class Player extends Entity {
         setVelX(0);
     }
 
+    public void setStatus(int status){
+        this.status=status;
+    }
+
     //real
     public void render(Graphics g){
+        System.out.println(x);
         if (facing == 0) {
             if(status==1){
                 g.drawImage(Game.player[frame+1][status].getBufferedImage(), x, y, width, height, null);
@@ -39,6 +44,16 @@ public class Player extends Entity {
         if(velX!=0)animate=true;
         else animate=false;
 
+        if(x<0)
+        {
+            x=0;
+            setVelX(0);
+        }
+        if(x>13520)
+        {
+            x=13520;
+            setVelX(0);
+        }
         for (Tile t : handler.tile) {
 //            Tile t = handler.tile.get(i);
             if (!t.solid) {
@@ -138,7 +153,7 @@ public class Player extends Entity {
             }
 
         }
-        for (Entity e : handler.entity) {
+        handler.entity.forEach(e->{
 //        Entity e = handler.entity.get();
 
             if (e.getId() == Id.mushroom) {
@@ -152,18 +167,18 @@ public class Player extends Entity {
                 }
             } else if (e.getId() == Id.goomba) {
                 if (getBoundsBottom().intersects(e.getBoundsTop()))
-            {
-                e.die();
-            }
-            else if(getBounds().intersects(e.getBounds()))
-            {
-                if(status<2)die();
-                else if(status==6) status-=4;
-                else status-=2;
+                {
+                    e.die();
+                }
+                else if(getBounds().intersects(e.getBounds()))
+                {
+                    if(status<2)die();
+                    else if(status==6) status-=4;
+                    else status-=2;
 
+                }
             }
-            }
-        }
+        });
         if (jumping) {
             gravity-=0.1;
             setVelY((int) -gravity);

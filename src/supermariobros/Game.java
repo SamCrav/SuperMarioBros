@@ -1,3 +1,11 @@
+/**
+ * @author Andrea Fumagalli, Samuele Lainati
+ * @version 1.0
+ * @file Camera.java
+ *
+ * @brief File per la gestione della camera di gioco
+ *
+ */
 package supermariobros;
 
 import java.awt.Canvas;
@@ -15,6 +23,15 @@ import supermariobros.gfx.Sprite;
 import supermariobros.gfx.SpriteSheet;
 import supermariobros.input.KeyInput;
 
+/**
+ * @class Camera
+ *
+ * @brief Classe per la gestione della visuale di gioco
+ *
+ * In questa classe l'oggetto che viene creato contiene i voti che
+ * vengono inseriti dal main, i metodi permettono di modificarli o di
+ * visualizzarli.
+ */
 public class Game extends Canvas implements Runnable {
 
     public static final int WIDTH = 270;
@@ -199,6 +216,10 @@ public class Game extends Canvas implements Runnable {
     public int getFrameHeight(){
         return HEIGHT*SCALE;
     }
+
+    /**
+     * @param args the command line arguments
+     */
 
     public static void main(String args[]) {
         Game game = new Game();
