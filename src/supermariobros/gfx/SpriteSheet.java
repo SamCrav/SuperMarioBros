@@ -40,7 +40,7 @@ public class SpriteSheet {
     }
 
     public BufferedImage getKoopaSprite(int x, int y){
-        return sheet.getSubimage(x*28,y*16,16,28);
+        return sheet.getSubimage(x*16,y*28,16,28);
     }
 
     public BufferedImage getBackGround(){

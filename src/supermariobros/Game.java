@@ -43,7 +43,7 @@ public class Game extends Canvas implements Runnable {
     public static Sprite grass;
     public static Sprite sand;
     public static Sprite brick;
-    public static Sprite[] special = new Sprite[5];
+    public static Sprite[][] special = new Sprite[2][5];
     public static Sprite solid;
     public static Sprite top_tube;
     public static Sprite bottom_tube;
@@ -51,7 +51,7 @@ public class Game extends Canvas implements Runnable {
     public static Sprite[][] player = new Sprite[4][7];
     public static Sprite[][] goomba = new Sprite[2][2];
 
-    public static Sprite[] koopa = new Sprite[2];
+    public static Sprite[] koopa = new Sprite[4];
 
     public static Sprite[] shell = new Sprite[3];
     public static Sprite mushroom;
@@ -86,11 +86,11 @@ public class Game extends Canvas implements Runnable {
         top_tube=new Sprite(tube,0,0, 24);
         bottom_tube=new Sprite(tube,1,0, 24);
 
-        for (int i = 0; i<special.length;i++){
-            special[i]=new Sprite(special_block,i,0, 16);
+        for (int c=0;c<special[0].length;c++){
+            for (int r=0;r<special.length;r++){
+                special[r][c]=new Sprite(special_block,c,r,16);
+            }
         }
-
-
 
 
         for (int c=0;c<player.length;c++){

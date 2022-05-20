@@ -8,15 +8,20 @@ import supermariobros.Id;
 import java.awt.*;
 
 public class Special extends Tile{
-    public Special(int x, int y, int width, int height, boolean solid, Id id, Handler handler) {
+
+    public Entity contain;
+    public Special(int x, int y, int width, int height, boolean solid, Id id, Handler handler,Entity contain) {
         super(x, y, width, height, solid, id, handler);
+        this.contain=contain;
     }
 
     private int frame=0;
     private int frameDelay=0;
 
+
     public void render(Graphics g){
-            g.drawImage(Game.special[frame].getBufferedImage(), x, y, width, height, null);
+
+            g.drawImage(Game.special[status][frame].getBufferedImage(), x, y, width, height, null);
     }
 
     public void tick() {

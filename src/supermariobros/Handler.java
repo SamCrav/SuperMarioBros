@@ -12,6 +12,8 @@ import supermariobros.entity.mob.Goomba;
 import supermariobros.entity.mob.Koopa;
 import supermariobros.entity.mob.Player;
 import supermariobros.gfx.SpriteSheet;
+import supermariobros.items.Flower;
+import supermariobros.items.Mushroom;
 import supermariobros.tile.*;
 
 import javax.imageio.ImageIO;
@@ -22,6 +24,12 @@ public class Handler
     public LinkedList<Tile> tile=new LinkedList<Tile>();
 
     private BufferedImage level;
+
+    private int itemX=0,itemY=0;
+
+    private Entity coin = new Entity(itemX*64,itemY*64,64,64,true,Id.coin,this);
+    private Mushroom mushroom = new Mushroom(itemX*64,itemY*64,64,64,true,Id.mushroom,this);
+    private Flower flower = new Flower(itemX*64,itemY*64,64,64,true,Id.flower,this);
 
     public Handler() {
         try {
@@ -94,7 +102,9 @@ public class Handler
                 if(red==0&&green==255&&blue==0)addTile(new Grass(x*64,y*64, 64,64,true,Id.wall,this));
                 if(red==221&&green==255&&blue==0)addTile(new Sand(x*64,y*64, 64,64,true,Id.wall,this));
                 if(red==255&&green==255&&blue==255)addEntity(new Player(x*64,y*64,64,64,true,Id.player,this));
-                if(red==255&&green==244&&blue==0)addTile(new Special(x*64,y*64,64,64,true,Id.special,this));
+                if(red==255&&green==244&&blue==0)addTile(new Special(x*64,y*64,64,64,true,Id.special,this,coin));
+                if(red==255&&green==244&&blue==0)addTile(new Special(x*64,y*64,64,64,true,Id.special,this,mushroom));
+                if(red==255&&green==244&&blue==0)addTile(new Special(x*64,y*64,64,64,true,Id.special,this,flower));
                 if(red==64&&green==64&&blue==64)addTile(new Wall(x*64,y*64,64,64,true,Id.wall,this));
                 if(red==0&&green==0&&blue==255)addTile(new Top_Tube(x*64,y*64,128,64,true,Id.tube,this));
                 if(red==0&&green==0&&blue==239)addTile(new Bottom_Tube(x*64,y*64,128,64,true,Id.tube,this));

@@ -10,7 +10,6 @@ import supermariobros.tile.Tile;
 public class Player extends Entity {
 
 
-    private boolean animate = false;
 
     public Player(int x, int y, int width, int height, boolean solid, Id id, Handler handler) {
         super(x, y, width, height, solid, id, handler);
@@ -35,8 +34,7 @@ public class Player extends Entity {
     public void tick() {
         x += velX;
         y += velY;
-        /*if(x+width>=1080)x=1080-width;
-        if(y+height>=771)y=771-height;*/
+        if(y>=960)die();
 
         if(velX!=0)animate=true;
         else animate=false;
@@ -66,14 +64,6 @@ public class Player extends Entity {
                     falling = true;
                 }
             }
-            if (getBoundsLeft().intersects(t.getBounds())) {
-                setVelX(0);
-                x = t.getX() + t.width;
-            }
-            if (getBoundsRight().intersects(t.getBounds())) {
-                setVelX(0);
-                x = t.getX() - t.width;
-            }
             if (t.getID() == Id.special) {
                 if (getBoundsTop().intersects(t.getBounds())) {
                     setVelY(0);
@@ -82,6 +72,7 @@ public class Player extends Entity {
                         gravity = 0.8;
                         falling = true;
                     }
+                    t.status=1;
                 }
                 if (getBoundsBottom().intersects(t.getBounds())) {
                     setVelY(0);
@@ -96,6 +87,9 @@ public class Player extends Entity {
             }
             if (t.getID() == Id.brick) {
                 if (getBoundsTop().intersects(t.getBounds())) {
+                    if(status>1){
+                        t.die();
+                    }
                     setVelY(0);
                     if (jumping) {
                         jumping = false;
@@ -134,6 +128,14 @@ public class Player extends Entity {
                     falling = true;
                 }
             }
+            if (getBoundsLeft().intersects(t.getBounds())) {
+                setVelX(0);
+                x = t.getX() + t.width;
+            }
+            if (getBoundsRight().intersects(t.getBounds())) {
+                setVelX(0);
+                x = t.getX()-64;
+            }
 
         }
         for (Entity e : handler.entity) {
@@ -143,7 +145,7 @@ public class Player extends Entity {
                 if (getBounds().intersects(e.getBounds())) {
                     int tpX = getX();
                     int tpY = getY();
-                    status=3;
+                    status=2;
                     /*setX(tpX - width);
                     setY(tpY - height);*/
                     e.die();
@@ -152,9 +154,12 @@ public class Player extends Entity {
                 if (getBoundsBottom().intersects(e.getBoundsTop()))
             {
                 e.die();
-                }
-                else if(getBounds().intersects(e.getBounds()))
+            }
+            else if(getBounds().intersects(e.getBounds()))
             {
+                if(status<2)die();
+                else if(status==6) status-=4;
+                else status-=2;
 
             }
             }

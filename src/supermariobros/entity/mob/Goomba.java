@@ -29,9 +29,17 @@ public class Goomba extends Entity {
 //                facing = 1;
                 break;
         }*/
-        setVelX(-2);
+        for (Entity e : handler.entity) {
+//        Entity e = handler.entity.get();
+
+            if (e.getId() == Id.player&&(getX()-e.getX())<=500) {
+                if(getVelX()==0){
+                    setVelX(-2);
+                }
+            }
+        }
 //        if (facing == 0) {
-            g.drawImage(Game.goomba[0][status].getBufferedImage(), x, y, width, height, null);
+        g.drawImage(Game.goomba[status][frame].getBufferedImage(), x, y, width, height, null);
 //        } else if (facing == 1) {
 //            g.drawImage(Game.player.getBufferedImage(), x, y, width, height, null);
 //        }
@@ -39,6 +47,80 @@ public class Goomba extends Entity {
 
     public void tick() {
         x += velX;
+        y += velY;
+        /*if(x+width>=1080)x=1080-width;
+        if(y+height>=771)y=771-height;*/
+
+        if(velX!=0)animate=true;
+        else animate=false;
+
+        for (Tile t : handler.tile) {
+//            Tile t = handler.tile.get(i);
+            if (!t.solid) {
+                break;
+            }
+            if (t.getID() == Id.wall) {
+                if (getBoundsBottom().intersects(t.getBounds())) {
+                    setVelY(0);
+                    if (falling) {
+                        falling = false;
+                    }
+                }
+                else if (!falling && !jumping) {
+                    gravity = 0.8;
+                    falling = true;
+                }
+            }
+            if (t.getID() == Id.special) {
+                if (getBoundsBottom().intersects(t.getBounds())) {
+                    setVelY(0);
+                    if (falling) {
+                        falling = false;
+                    }
+                }
+                else if (!falling && !jumping) {
+                    gravity = 0.8;
+                    falling = true;
+                }
+            }
+            if (t.getID() == Id.brick) {
+                if (getBoundsBottom().intersects(t.getBounds())) {
+                    setVelY(0);
+                    if (falling) {
+                        falling = false;
+                    }
+                }
+                else if (!falling && !jumping) {
+                    gravity = 0.8;
+                    falling = true;
+                }
+            }
+            if (t.getID() == Id.tube) {
+                if (getBoundsBottom().intersects(t.getBounds())) {
+                    setVelY(0);
+                    if (falling) {
+                        falling = false;
+                    }
+                }
+                else if (!falling && !jumping) {
+                    gravity = 0.8;
+                    falling = true;
+                }
+            }
+            if (getBoundsLeft().intersects(t.getBounds())) {
+                setVelX(2);
+                x = t.getX() + t.width;
+            }
+            if (getBoundsRight().intersects(t.getBounds())) {
+                setVelX(-2);
+                x = t.getX()-72;
+
+            }
+
+        }
+
+
+        /*x += velX;
         y += velY;
 
         for (Tile t:handler.tile) {
@@ -65,7 +147,7 @@ public class Goomba extends Entity {
                 setVelX(0);
                 x = t.getX() - t.width;
             }
-        }
+        }*/
 //            Tile t = handler.tile.get(i);
             /*if (t.isSolid()) {
                 if (getBoundsBottom().intersects(t.getBounds())) {
@@ -88,5 +170,21 @@ public class Goomba extends Entity {
                 setVelY((int) gravity);
             }
         }*/
+
+        if (falling) {
+            gravity += 0.1;
+            setVelY((int) gravity);
+        }
+
+        if(animate){
+            frameDelay++;
+            if (frameDelay >= 6) {
+                frame++;
+                if (frame > 1) {
+                    frame = 0;
+                }
+                frameDelay = 0;
+            }
+        }
     }
 }

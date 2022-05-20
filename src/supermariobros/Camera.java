@@ -11,7 +11,12 @@ public class Camera {
     public int x, y;
 
     public void tick(Entity player ){
-        setX(-player.getX() + Game.WIDTH);
+        if(-player.getX() + Game.WIDTH>0){
+            setX(0);
+        }
+        else{
+            setX(-player.getX() + Game.WIDTH);
+        }
         setY(-Game.HEIGHT-64);
     }
 

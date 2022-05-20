@@ -28,6 +28,8 @@ public class Entity
     public Id id;
     
     public Handler handler;
+    protected boolean animate = false;
+
     
     public double gravity = 0.0;
     

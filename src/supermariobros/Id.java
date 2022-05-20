@@ -5,5 +5,5 @@
 package supermariobros;
 
 public enum Id {
-    player,wall,mushroom,goomba,koopa,special,brick,tube;
+    player,wall,mushroom,goomba,koopa,special,brick,tube,coin,flower;
 }

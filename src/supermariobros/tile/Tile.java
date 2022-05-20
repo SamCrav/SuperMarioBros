@@ -16,6 +16,8 @@ public abstract class Tile
     public Id id;
     
     public Handler handler;
+
+    public int status = 0;
     
     
     public Tile(int x, int y, int width, int height, boolean solid, Id id, Handler handler) {
