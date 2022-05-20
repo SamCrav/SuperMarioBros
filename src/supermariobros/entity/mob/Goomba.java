@@ -12,6 +12,19 @@ public class Goomba extends Entity {
 
     //private Random random = new Random();
 
+    /**
+        @brief costruttore parametrico
+
+        inizializzato il costruttore Goomba
+
+        @param x orizzontale
+        @param y verticale
+        @param width larghezza
+        @param height lunghezza 
+        @param solid solido
+        @param id id
+        @param handler gestione
+    **/
     public Goomba(int x, int y, int width, int height, boolean solid, Id id, Handler handler) {
         super(x, y, width, height, solid, id, handler);
     }

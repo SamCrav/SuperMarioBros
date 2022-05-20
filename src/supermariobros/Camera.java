@@ -6,6 +6,10 @@
  * @brief File per la gestione della camera di gioco
  *
  */
+package supermariobros;
+
+import mariobros.entity.Entity;
+
 /**
  * @class Camera
  *
@@ -15,10 +19,6 @@
  * vengono inseriti dal main, i metodi permettono di modificarli o di
  * visualizzarli.
  */
-package supermariobros;
-
-import mariobros.entity.Entity;
-
 public class Camera {
 
     /**posizione sull'asse x**/

@@ -1,3 +1,11 @@
+/**
+ * @author Andrea Fumagalli, Samuele Lainati
+ * @version 1.0
+ * @file Handler.java
+ *
+ * @brief File per la gestione di tutti gli elementi
+ *
+ */
 package supermariobros;
 
 import java.awt.Graphics;
@@ -20,19 +28,54 @@ import supermariobros.tile.*;
 
 import javax.imageio.ImageIO;
 
+/**
+ * @class Handler
+ *
+ * @brief Classe per la gestione di tutti gli elementi
+ *
+ * Gestione di tutti gli elementi presenti nei file
+ */
 public class Handler 
 {
+    /**
+     * Lista delle entità
+     */
     public List<Entity> entity= Collections.synchronizedList(new LinkedList<Entity>());
+    /**
+     * Lista dei tile della mappa
+     */
     public LinkedList<Tile> tile=new LinkedList<Tile>();
 
+    /**
+     * buffered image
+     */
     private BufferedImage level;
 
+    /**
+     * posizioni degli oggetti asse x e y
+     */
     private int itemX=0,itemY=0;
 
+    /**
+     * moneta
+     */
     private Entity coin = new Entity(itemX*64,itemY*64,64,64,true,Id.coin,this);
+    /**
+     * fungo
+     */
     private Mushroom mushroom = new Mushroom(itemX*64,itemY*64,64,64,true,Id.mushroom,this);
+    /**
+     * fiore
+     */
     private Flower flower = new Flower(itemX*64,itemY*64,64,64,true,Id.flower,this);
 
+    
+    /**
+        @brief visualizza schermo
+
+        aggiorna la grafica e viene visualizzato lo schermo
+
+    **/
     public Handler() {
         try {
             level = ImageIO.read(getClass().getResource("/resources/images/map/Level1_1.png"));
@@ -41,10 +84,15 @@ public class Handler
         }
 
         createLevel(level);
-
-
     }
 
+    /**
+        @brief visualizza schermo
+
+        aggiorna la grafica e viene visualizzato lo schermo
+
+        @param g grafica
+    **/
     public void render(Graphics g)
     {
         g.drawImage(Game.background.getBufferedImage().getScaledInstance(1080,772,0),-Game.cam.getX(),-Game.cam.getY(),null);
@@ -58,6 +106,13 @@ public class Handler
         }
     }
     
+    /**
+        @brief aggiorna handler
+
+        viene richiamato ogni tick per aggiornare lo stato del gioco
+
+        gioco viene aggiornato
+    **/
     public void tick()
     {
         entity.forEach(en -> {en.tick();});
@@ -67,26 +122,61 @@ public class Handler
         }
     }
     
+    /**
+        @brief aggiunta entità
+
+        aggiunge l'entità al gioco
+
+        @param add aggiunge
+    **/
     public void addEntity(Entity add)
     {
         entity.add(add);
     }
     
+    /**
+        @brief rimuove entità
+
+        rimuove l'entità dal gioco
+
+        @param rem rimuove
+    **/
     public void removeEntity(Entity rem)
     {
         entity.remove(rem);
     }
     
+    /**
+        @brief aggiunta tile della mappa
+
+        aggiunge tile della mappa al gioco
+
+        @param add aggiunge
+    **/
     public void addTile(Tile add)
     {
         tile.add(add);
     }
     
+    /**
+        @brief rimuove tile della mappa
+
+        rimuove tile della mappa dal gioco
+
+        @param rem rimuove
+    **/
     public void removeTile(Tile rem)
     {
         tile.remove(rem);
     }
     
+    /**
+        @brief carica la mappa
+
+        carica la mappa del gioco
+
+        @param level 
+    **/
     public void createLevel(BufferedImage level){
         int width = level.getWidth();
         int height = level.getHeight();

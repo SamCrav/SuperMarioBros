@@ -9,13 +9,29 @@ import supermariobros.tile.Tile;
 
 public class Player extends Entity {
 
+/**
+        @brief costruttore parametrico
 
+        inizializzato il costruttore Player
 
+        @param x orizzontale
+        @param y verticale
+        @param width larghezza
+        @param height lunghezza 
+        @param solid solido
+        @param id id
+        @param handler gestione
+    **/
     public Player(int x, int y, int width, int height, boolean solid, Id id, Handler handler) {
         super(x, y, width, height, solid, id, handler);
         setVelX(0);
     }
 
+    /**
+     * setta lo status
+     * 
+     * @param status
+     */
     public void setStatus(int status){
         this.status=status;
     }

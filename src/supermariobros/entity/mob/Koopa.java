@@ -14,6 +14,19 @@ import supermariobros.tile.Tile;
 
 public class Koopa extends Entity
 {
+    /**
+        @brief costruttore parametrico
+
+        inizializzato il costruttore Koopa
+
+        @param x orizzontale
+        @param y verticale
+        @param width larghezza
+        @param height lunghezza 
+        @param solid solido
+        @param id id
+        @param handler gestione
+    **/
     public Koopa(int x, int y, int width, int height, boolean solid, Id id, Handler handler)
     {
         super(x,y,width,height,solid,id,handler);

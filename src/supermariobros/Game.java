@@ -1,9 +1,9 @@
 /**
  * @author Andrea Fumagalli, Samuele Lainati
- * @version 1.0
- * @file Camera.java
+ * @version 0.7
+ * @file Game.java
  *
- * @brief File per la gestione della camera di gioco
+ * @brief File per la gestione del gioco
  *
  */
 package supermariobros;
@@ -24,13 +24,11 @@ import supermariobros.gfx.SpriteSheet;
 import supermariobros.input.KeyInput;
 
 /**
- * @class Camera
+ * @class Game
  *
- * @brief Classe per la gestione della visuale di gioco
+ * @brief Classe per la gestione del gioco
  *
- * In questa classe l'oggetto che viene creato contiene i voti che
- * vengono inseriti dal main, i metodi permettono di modificarli o di
- * visualizzarli.
+ * Gestione del gioco Supermario bros
  */
 public class Game extends Canvas implements Runnable {
 
