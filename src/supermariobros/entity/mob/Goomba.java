@@ -14,6 +14,8 @@ public class Goomba extends Entity
 {
     private Random random=new Random();
     
+    
+    
     public Goomba(int x, int y, int width, int height, boolean solid, Id id, Handler handler)
     {
         super(x,y,width,height,solid,id,handler);
@@ -29,7 +31,7 @@ public class Goomba extends Entity
             break;
         case 1:
         setvelX(2);
-        facing=13;
+        facing=1;
         break;
     }
     

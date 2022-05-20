@@ -116,4 +116,14 @@ public class Entity
     {
         return new Rectangle(getX()+10,getY(),width-20,5);
     }
+    
+    public void render(Graphics g)
+    {
+        
+    }
+    
+    public void tick()
+    {
+        
+    }
 }
