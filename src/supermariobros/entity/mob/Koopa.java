@@ -7,6 +7,7 @@ package supermariobros.entity.mob;
 
 import java.awt.Graphics;
 import mariobros.entity.Entity;
+import supermariobros.Game;
 import supermariobros.Handler;
 import supermariobros.Id;
 
@@ -14,7 +15,7 @@ import supermariobros.Id;
  *
  * @author lainati_samuele
  */
-public class Koopa extends Entity 
+public abstract class Koopa extends Entity 
 {
     public Koopa(int x, int y, int width, int height, boolean solid, Id id, Handler handler)
     {
@@ -25,11 +26,11 @@ public class Koopa extends Entity
     {
         if(facing==0)
         {
-            g.drawImage(Game.player[4+frame].getBufferedImage(),x,y,width,height,null);
+            g.drawImage(Game.player[0].getBufferedImage(),x,y,width,height,null);
         }
         else if(facing==1)
         {
-            g.drawImage(Game.player[frame].getBufferedImage(),x,y,width,height,null);
+            g.drawImage(Game.player[0].getBufferedImage(),x,y,width,height,null);
         }
     }
 }

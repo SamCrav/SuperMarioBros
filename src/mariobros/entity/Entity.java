@@ -4,14 +4,17 @@ import java.awt.Graphics;
 import java.awt.Rectangle;
 import supermariobros.Handler;
 import supermariobros.Id;
-/**
- *
- * @author lainati_samuele
- */
-public class Entity 
+
+
+public abstract class Entity 
 {
     public int x,y;
     public int width, height;
+    public int facing=0;
+    
+    
+    public int frame=0;
+    public int frameDelay=0;
     
     public boolean solid;
     public boolean jumping=false;
@@ -117,13 +120,7 @@ public class Entity
         return new Rectangle(getX()+10,getY(),width-20,5);
     }
     
-    public void render(Graphics g)
-    {
-        
-    }
+    public abstract void render(Graphics g);
     
-    public void tick()
-    {
-        
-    }
+    public abstract void tick();
 }

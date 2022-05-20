@@ -8,7 +8,7 @@ import supermariobros.Id;
  *
  * @author Utente
  */
-public class Tile 
+public abstract class Tile 
 {
     public int x,y;
     public int width, height;
@@ -87,15 +87,9 @@ public class Tile
         handler.removeTile(this);
     }
     
-    public void render(Graphics g)
-    {
-        
-    }
+    public abstract void render(Graphics g);
     
-    public void tick()
-    {
-        
-    }
+    public abstract void tick();
     
     public Rectangle getBounds()
     {

@@ -1,9 +1,13 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package supermariobros;
+
 /**
  *
- * @author lainati_samuele
+ * @author Andrea
  */
-public enum Id 
-{
+public enum Id {
     player,wall,mushroom,goomba; 
 }

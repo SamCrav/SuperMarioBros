@@ -8,7 +8,7 @@ import supermariobros.tile.Tile;
  *
  * @author lainati_samuele
  */
-public class Mushroom extends Entity
+public abstract class Mushroom extends Entity
 {
     public Mushroom(int x, int y, int width, int height, boolean solid, Id id, Handler handler)
     {

@@ -1,0 +1,25 @@
+brick = 0,0,0
+
+? block = 255,244,0
+
+sand = 221,255,0
+
+grass = 0,255,0
+
+bottom tube = 0,0,240
+
+top tube = 0,0,255
+
+block = 64,64,64
+
+player = 255,255,255
+
+goomba = 255,0,0
+
+koopa = 240,0,0
+
+asta = 240,240,240
+
+cima = 224,224,224
+
+bandiera = 208,208,208
