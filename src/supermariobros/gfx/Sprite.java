@@ -16,14 +16,14 @@ public class Sprite {
     public BufferedImage image;
     
     /**
-     * @brief metodo Sprite
-     *
-     * dimensione delle immagini
-     *
-     * @param x orizzontale
-     * @param y verticale
-     * @param dim dimensione
-     * @param sheet
+        @brief metodo Sprite
+        * 
+        * dimensione delle immagini 
+
+        @param x orizzontale
+        @param y verticale
+        @param dim dimensione
+        @param sheet  
     **/
     public Sprite(SpriteSheet sheet, int x, int y, int dim) {
         if(dim==16)image=sheet.getSmallSprite(x, y, dim);
@@ -36,11 +36,11 @@ public class Sprite {
     }
     
     /**
-     * @brief getter BufferedImage
-     *
-     * restituisce il valore di image
-     *
-     * @return image--> immagine
+        @brief getter BufferedImage
+        * 
+        * restituisce il valore di image
+        * 
+        * @return image--> immagine
     **/
     public BufferedImage getBufferedImage(){
         return image;

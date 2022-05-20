@@ -71,10 +71,10 @@ public class Handler
 
     
     /**
-     * @brief visualizza schermo
-     *
-     * aggiorna la grafica e viene visualizzato lo schermo
-     *
+        @brief visualizza schermo
+
+        aggiorna la grafica e viene visualizzato lo schermo
+
     **/
     public Handler() {
         try {
@@ -87,11 +87,11 @@ public class Handler
     }
 
     /**
-     * @brief visualizza schermo
-     *
-     * aggiorna la grafica e viene visualizzato lo schermo
-     *
-     * @param g grafica
+        @brief visualizza schermo
+
+        aggiorna la grafica e viene visualizzato lo schermo
+
+        @param g grafica
     **/
     public void render(Graphics g)
     {
@@ -107,11 +107,11 @@ public class Handler
     }
     
     /**
-     * @brief aggiorna handler
-     *
-     * viene richiamato ogni tick per aggiornare lo stato del gioco
-     *
-     * gioco viene aggiornato
+        @brief aggiorna handler
+
+        viene richiamato ogni tick per aggiornare lo stato del gioco
+
+        gioco viene aggiornato
     **/
     public void tick()
     {
@@ -123,11 +123,11 @@ public class Handler
     }
     
     /**
-     * @brief aggiunta entità
-     *
-     * aggiunge l'entità al gioco
-     *
-     * @param add aggiunge
+        @brief aggiunta entità
+
+        aggiunge l'entità al gioco
+
+        @param add aggiunge
     **/
     public void addEntity(Entity add)
     {
@@ -135,11 +135,11 @@ public class Handler
     }
     
     /**
-     * @brief rimuove entità
-     *
-     * rimuove l'entità dal gioco
-     *
-     * @param rem rimuove
+        @brief rimuove entità
+
+        rimuove l'entità dal gioco
+
+        @param rem rimuove
     **/
     public void removeEntity(Entity rem)
     {
@@ -147,11 +147,11 @@ public class Handler
     }
     
     /**
-     * @brief aggiunta tile della mappa
-     *
-     * aggiunge tile della mappa al gioco
-     *
-     * @param add aggiunge
+        @brief aggiunta tile della mappa
+
+        aggiunge tile della mappa al gioco
+
+        @param add aggiunge
     **/
     public void addTile(Tile add)
     {
@@ -159,11 +159,11 @@ public class Handler
     }
     
     /**
-     * @brief rimuove tile della mappa
-     *
-     * rimuove tile della mappa dal gioco
-     *
-     * @param rem rimuove
+        @brief rimuove tile della mappa
+
+        rimuove tile della mappa dal gioco
+
+        @param rem rimuove
     **/
     public void removeTile(Tile rem)
     {
@@ -171,11 +171,11 @@ public class Handler
     }
     
     /**
-     * @brief carica la mappa
-     *
-     * carica la mappa del gioco
-     *
-     * @param level
+        @brief carica la mappa
+
+        carica la mappa del gioco
+
+        @param level 
     **/
     public void createLevel(BufferedImage level){
         int width = level.getWidth();

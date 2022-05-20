@@ -9,9 +9,11 @@
 package supermariobros;
 
 import java.awt.Canvas;
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
+import java.awt.image.RasterFormatException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFrame;
@@ -77,11 +79,11 @@ public class Game extends Canvas implements Runnable {
 
     
     /**
-     * @brief Game
-     * Dimension size = new Dimension(WIDTH * SCALE, HEIGHT * SCALE);
-     * setPreferredSize(size);
-     * setMaximumSize(size);
-     * setMinimumSize(size);
+        @brief Game
+        Dimension size = new Dimension(WIDTH * SCALE, HEIGHT * SCALE);
+        setPreferredSize(size);
+        setMaximumSize(size);
+        setMinimumSize(size);
     **/
     public Game() {
         Dimension size = new Dimension(WIDTH * SCALE, HEIGHT * SCALE);
@@ -91,10 +93,10 @@ public class Game extends Canvas implements Runnable {
     }
     
     /**
-     * @brief public void init()
-     *
-     *
-     *
+        @brief public void init()
+        * 
+        * 
+        * 
     **/
     public void init(){
         handler = new Handler();
@@ -154,10 +156,10 @@ public class Game extends Canvas implements Runnable {
     }
     
     /**
-     * @brief inizio
-     *
-     * inizia il gioco
-     *
+        @brief inizio
+        * 
+        * inizia il gioco
+        * 
     **/
     public synchronized void start() {
         if(running)return;
@@ -167,10 +169,10 @@ public class Game extends Canvas implements Runnable {
     }
 
     /**
-     * @brief fine
-     *
-     * finisce il gioco
-     *
+        @brief fine
+        * 
+        * finisce il gioco
+        * 
     **/
     public synchronized void stop() {
         if(!running)return;
@@ -184,10 +186,10 @@ public class Game extends Canvas implements Runnable {
 
     
     /**
-     * @brief run
-     *
-     * implementa il gioco
-     *
+        @brief run
+        * 
+        * implementa il gioco
+        * 
     **/
     @Override
     public void run() {
@@ -220,10 +222,10 @@ public class Game extends Canvas implements Runnable {
     }
     
     /**
-     * @brief aggiorna tile
-     *
-     * aggiorna il tile e visualizza
-     *
+        @brief aggiorna tile
+        * 
+        * aggiorna il tile e visualizza
+        * 
     **/
     public void render(){
         BufferStrategy bs = getBufferStrategy();
@@ -232,6 +234,8 @@ public class Game extends Canvas implements Runnable {
             return;
         }
         Graphics g = bs.getDrawGraphics();
+        /*g.setColor(Color.BLACK);
+        g.fillRect(0,0,getWidth(),getHeight());*/
         g.translate(cam.getX(),cam.getY());
         handler.render(g);
         g.dispose();
@@ -239,10 +243,10 @@ public class Game extends Canvas implements Runnable {
     }
     
     /**
-     * @brief aggiorna
-     *
-     * aggiornamento dei parametri dell'oggetto
-     *
+        @brief aggiorna
+        * 
+        * aggiornamento dei parametri dell'oggetto
+        * 
     **/
     public void tick(){
         handler.tick();
@@ -255,12 +259,12 @@ public class Game extends Canvas implements Runnable {
     }
 
     /**
-     * @brief getter frameWidth
-     *
-     * restituisce valore del Width*Scale
-     *
-     * @return Width*Scale
-     *
+        @brief getter frameWidth
+        * 
+        * restituisce valore del Width*Scale
+        * 
+        * @return Width*Scale
+        * 
     **/
     public int getFrameWidth(){
         return WIDTH*SCALE;
@@ -268,22 +272,27 @@ public class Game extends Canvas implements Runnable {
 
     
     /**
-     * @brief getter frameHeight
-     *
-     * restituisce valore del height*Scale
-     *
-     * @return height*Scale
+        @brief getter frameHeight
+        * 
+        * restituisce valore del height*Scale
+        * 
+        * @return height*Scale
+        * 
     **/
     public int getFrameHeight(){
         return HEIGHT*SCALE;
     }
+
+    /**
+     * @param args the command line arguments
+     */
+
     
     /**
-     * @brief avvia il gioco
-     *
-     * avvia il gioco con il debug
-     *
-     * @param args the command line arguments
+        @brief avvia il gioco
+        * 
+        * avvia il gioco con il debug
+        * 
     **/
     public static void main(String args[]) {
         Game game = new Game();

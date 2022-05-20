@@ -32,6 +32,7 @@ public class Koopa extends Entity
         super(x,y,width,height,solid,id,handler);
     }
 
+    
     /**
      * @brief aggiorna grafica del koopa
      *
@@ -55,6 +56,7 @@ public class Koopa extends Entity
         }
     }
 
+    
     /**
      * @brief aggiorna l'entità
      *
@@ -63,11 +65,14 @@ public class Koopa extends Entity
     public void tick() {
         x += velX;
         y += velY;
+        /*if(x+width>=1080)x=1080-width;
+        if(y+height>=771)y=771-height;*/
 
         if(velX!=0)animate=true;
         else animate=false;
 
         for (Tile t : handler.tile) {
+//            Tile t = handler.tile.get(i);
             if (!t.solid) {
                 break;
             }
@@ -130,6 +135,58 @@ public class Koopa extends Entity
             }
 
         }
+
+
+        /*x += velX;
+        y += velY;
+
+        for (Tile t:handler.tile) {
+            if (!t.solid) {
+                break;
+            }
+            if (t.getID() == Id.wall) {
+                if (getBoundsBottom().intersects(t.getBounds())) {
+                    setVelY(0);
+                    if (falling) {
+                        falling = false;
+                    }
+                }
+                else if (!falling && !jumping) {
+                    gravity = 0.8;
+                    falling = true;
+                }
+            }
+            if (getBoundsLeft().intersects(t.getBounds())) {
+                setVelX(0);
+                x = t.getX() + t.width;
+            }
+            if (getBoundsRight().intersects(t.getBounds())) {
+                setVelX(0);
+                x = t.getX() - t.width;
+            }
+        }*/
+//            Tile t = handler.tile.get(i);
+            /*if (t.isSolid()) {
+                if (getBoundsBottom().intersects(t.getBounds())) {
+                    setVelY(0);
+                    if (falling) {
+                        falling = false;
+                    } else if (!falling) {
+                        falling = true;
+                        gravity = 0.8;
+                    }
+                }
+                if (getBoundsLeft().intersects(t.getBounds())) {
+                    setVelX(2);
+                } else if (getBoundsRight().intersects(t.getBounds())) {
+                    setVelX(-2);
+                }
+            }
+            if (falling) {
+                gravity += 0.1;
+                setVelY((int) gravity);
+            }
+        }*/
 
         if (falling) {
             gravity += 0.1;

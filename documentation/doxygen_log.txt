@@ -1,0 +1,882 @@
+Notice: Output directory `C:\$$$$ Look at me 4Binfo $$$$\Tecnologie\SuperMarioBros1\SuperMarioBros\html' does not exist. I have created it for you.
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/mariobros
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/mariobros/entity
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/resources
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/resources/images
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/resources/images/enemies
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/resources/images/map
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/resources/images/mario
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/entity
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/entity/mob
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/gfx
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/input
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/items
+Searching for files in directory C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile
+Reading and parsing tag files
+Parsing files
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/mariobros/entity/Entity.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/mariobros/entity/Entity.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/Camera.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/Camera.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/entity/mob/Goomba.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/entity/mob/Goomba.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/entity/mob/Koopa.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/entity/mob/Koopa.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/entity/mob/Player.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/entity/mob/Player.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/Game.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/Game.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/gfx/Sprite.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/gfx/Sprite.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/gfx/SpriteSheet.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/gfx/SpriteSheet.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/Handler.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/Handler.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/Id.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/Id.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/input/KeyInput.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/input/KeyInput.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/items/Flower.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/items/Flower.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/items/Mushroom.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/items/Mushroom.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/items/Star.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/items/Star.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Bottom_Tube.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Bottom_Tube.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Brick.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Brick.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Grass.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Grass.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Sand.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Sand.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Special.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Special.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Tile.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Tile.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Top_Tube.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Top_Tube.java...
+Reading C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Wall.java...
+Parsing file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Wall.java...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Creating members for template instances...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file src/mariobros/entity/Entity.java...
+Generating code for file src/supermariobros/Camera.java...
+Generating code for file src/supermariobros/entity/mob/Goomba.java...
+Generating code for file src/supermariobros/entity/mob/Koopa.java...
+Generating code for file src/supermariobros/entity/mob/Player.java...
+Generating code for file src/supermariobros/Game.java...
+Generating code for file src/supermariobros/gfx/Sprite.java...
+Generating code for file src/supermariobros/gfx/SpriteSheet.java...
+Generating code for file src/supermariobros/Handler.java...
+Generating code for file src/supermariobros/Id.java...
+Generating code for file src/supermariobros/input/KeyInput.java...
+Generating code for file src/supermariobros/items/Flower.java...
+Generating code for file src/supermariobros/items/Mushroom.java...
+Generating code for file src/supermariobros/items/Star.java...
+Generating code for file src/supermariobros/tile/Bottom_Tube.java...
+Generating code for file src/supermariobros/tile/Brick.java...
+Generating code for file src/supermariobros/tile/Grass.java...
+Generating code for file src/supermariobros/tile/Sand.java...
+Generating code for file src/supermariobros/tile/Special.java...
+Generating code for file src/supermariobros/tile/Tile.java...
+Generating code for file src/supermariobros/tile/Top_Tube.java...
+Generating code for file src/supermariobros/tile/Wall.java...
+Generating file documentation...
+Generating docs for file src/mariobros/entity/Entity.java...
+Generating docs for file src/supermariobros/Camera.java...
+Generating docs for file src/supermariobros/entity/mob/Goomba.java...
+Generating docs for file src/supermariobros/entity/mob/Koopa.java...
+Generating docs for file src/supermariobros/entity/mob/Player.java...
+Generating docs for file src/supermariobros/Game.java...
+Generating docs for file src/supermariobros/gfx/Sprite.java...
+Generating docs for file src/supermariobros/gfx/SpriteSheet.java...
+Generating docs for file src/supermariobros/Handler.java...
+Generating docs for file src/supermariobros/Id.java...
+Generating docs for file src/supermariobros/input/KeyInput.java...
+Generating docs for file src/supermariobros/items/Flower.java...
+Generating docs for file src/supermariobros/items/Mushroom.java...
+Generating docs for file src/supermariobros/items/Star.java...
+Generating docs for file src/supermariobros/tile/Bottom_Tube.java...
+Generating docs for file src/supermariobros/tile/Brick.java...
+Generating docs for file src/supermariobros/tile/Grass.java...
+Generating docs for file src/supermariobros/tile/Sand.java...
+Generating docs for file src/supermariobros/tile/Special.java...
+Generating docs for file src/supermariobros/tile/Tile.java...
+Generating docs for file src/supermariobros/tile/Top_Tube.java...
+Generating docs for file src/supermariobros/tile/Wall.java...
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating namespace index...
+Generating docs for namespace mariobros
+Generating docs for namespace mariobros::entity
+Generating docs for compound mariobros::entity::Entity...
+Generating call graph for function mariobros.entity.Entity.die
+Generating caller graph for function mariobros.entity.Entity.die
+Generating call graph for function mariobros.entity.Entity.getBounds
+Generating caller graph for function mariobros.entity.Entity.getBounds
+Generating call graph for function mariobros.entity.Entity.getBoundsBottom
+Generating caller graph for function mariobros.entity.Entity.getBoundsBottom
+Generating call graph for function mariobros.entity.Entity.getBoundsLeft
+Generating caller graph for function mariobros.entity.Entity.getBoundsLeft
+Generating call graph for function mariobros.entity.Entity.getBoundsRight
+Generating caller graph for function mariobros.entity.Entity.getBoundsRight
+Generating call graph for function mariobros.entity.Entity.getBoundsTop
+Generating caller graph for function mariobros.entity.Entity.getBoundsTop
+Generating caller graph for function mariobros.entity.Entity.getId
+Generating caller graph for function mariobros.entity.Entity.getVelX
+Generating caller graph for function mariobros.entity.Entity.getX
+Generating caller graph for function mariobros.entity.Entity.getY
+Generating caller graph for function mariobros.entity.Entity.setVelX
+Generating caller graph for function mariobros.entity.Entity.setVelY
+Generating docs for namespace supermariobros
+Generating docs for compound supermariobros::Camera...
+Generating caller graph for function supermariobros.Camera.getX
+Generating caller graph for function supermariobros.Camera.getY
+Generating caller graph for function supermariobros.Camera.setX
+Generating caller graph for function supermariobros.Camera.setY
+Generating call graph for function supermariobros.Camera.tick
+Generating caller graph for function supermariobros.Camera.tick
+Generating docs for compound supermariobros::Game...
+Generating caller graph for function supermariobros.Game.Game
+Generating caller graph for function supermariobros.Game.init
+Generating call graph for function supermariobros.Game.main
+Generating call graph for function supermariobros.Game.render
+Generating caller graph for function supermariobros.Game.render
+Generating call graph for function supermariobros.Game.run
+Generating caller graph for function supermariobros.Game.start
+Generating caller graph for function supermariobros.Game.stop
+Generating call graph for function supermariobros.Game.tick
+Generating caller graph for function supermariobros.Game.tick
+Generating docs for compound supermariobros::Handler...
+Generating call graph for function supermariobros.Handler.Handler
+Generating caller graph for function supermariobros.Handler.addEntity
+Generating caller graph for function supermariobros.Handler.addTile
+Generating call graph for function supermariobros.Handler.createLevel
+Generating caller graph for function supermariobros.Handler.createLevel
+Generating caller graph for function supermariobros.Handler.removeEntity
+Generating caller graph for function supermariobros.Handler.removeTile
+Generating call graph for function supermariobros.Handler.render
+Generating caller graph for function supermariobros.Handler.render
+Generating caller graph for function supermariobros.Handler.tick
+Generating docs for compound supermariobros::Id...
+Generating docs for namespace supermariobros::entity
+Generating docs for namespace supermariobros::entity::mob
+Generating docs for compound supermariobros::entity::mob::Goomba...
+Generating call graph for function supermariobros.entity.mob.Goomba.render
+Generating call graph for function supermariobros.entity.mob.Goomba.tick
+Generating docs for compound supermariobros::entity::mob::Koopa...
+Generating call graph for function supermariobros.entity.mob.Koopa.render
+Generating call graph for function supermariobros.entity.mob.Koopa.tick
+Generating docs for compound supermariobros::entity::mob::Player...
+Generating call graph for function supermariobros.entity.mob.Player.Player
+Generating call graph for function supermariobros.entity.mob.Player.render
+Generating call graph for function supermariobros.entity.mob.Player.tick
+Generating docs for namespace supermariobros::gfx
+Generating docs for compound supermariobros::gfx::Sprite...
+Generating call graph for function supermariobros.gfx.Sprite.Sprite
+Generating caller graph for function supermariobros.gfx.Sprite.getBufferedImage
+Generating docs for compound supermariobros::gfx::SpriteSheet...
+Generating caller graph for function supermariobros.gfx.SpriteSheet.getBackGround
+Generating caller graph for function supermariobros.gfx.SpriteSheet.getKoopaSprite
+Generating caller graph for function supermariobros.gfx.SpriteSheet.getShellSprite
+Generating caller graph for function supermariobros.gfx.SpriteSheet.getSmallSprite
+Generating caller graph for function supermariobros.gfx.SpriteSheet.getSprite
+Generating caller graph for function supermariobros.gfx.SpriteSheet.getTubeSprite
+Generating docs for namespace supermariobros::input
+Generating docs for compound supermariobros::input::KeyInput...
+Generating call graph for function supermariobros.input.KeyInput.keyPressed
+Generating call graph for function supermariobros.input.KeyInput.keyReleased
+Generating docs for namespace supermariobros::items
+Generating docs for compound supermariobros::items::Flower...
+Generating call graph for function supermariobros.items.Flower.render
+Generating docs for compound supermariobros::items::Mushroom...
+Generating call graph for function supermariobros.items.Mushroom.render
+Generating call graph for function supermariobros.items.Mushroom.tick
+Generating docs for compound supermariobros::items::Star...
+Generating call graph for function supermariobros.items.Star.render
+Generating call graph for function supermariobros.items.Star.tick
+Generating docs for namespace supermariobros::tile
+Generating docs for compound supermariobros::tile::Bottom_Tube...
+Generating call graph for function supermariobros.tile.Bottom_Tube.render
+Generating docs for compound supermariobros::tile::Brick...
+Generating call graph for function supermariobros.tile.Brick.render
+Generating docs for compound supermariobros::tile::Grass...
+Generating call graph for function supermariobros.tile.Grass.render
+Generating docs for compound supermariobros::tile::Sand...
+Generating call graph for function supermariobros.tile.Sand.render
+Generating docs for compound supermariobros::tile::Special...
+Generating call graph for function supermariobros.tile.Special.render
+Generating docs for compound supermariobros::tile::Tile...
+Generating call graph for function supermariobros.tile.Tile.die
+Generating caller graph for function supermariobros.tile.Tile.die
+Generating call graph for function supermariobros.tile.Tile.getBounds
+Generating caller graph for function supermariobros.tile.Tile.getBounds
+Generating caller graph for function supermariobros.tile.Tile.getID
+Generating caller graph for function supermariobros.tile.Tile.getX
+Generating caller graph for function supermariobros.tile.Tile.getY
+Generating caller graph for function supermariobros.tile.Tile.isSolid
+Generating caller graph for function supermariobros.tile.Tile.render
+Generating caller graph for function supermariobros.tile.Tile.tick
+Generating docs for compound supermariobros::tile::Top_Tube...
+Generating call graph for function supermariobros.tile.Top_Tube.render
+Generating docs for compound supermariobros::tile::Wall...
+Generating call graph for function supermariobros.tile.Wall.render
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating graphical class hierarchy...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+Running dot...
+Generating dot graphs using 5 parallel threads...
+Running dot for graph 1/254
+Running dot for graph 2/254
+Running dot for graph 3/254
+Running dot for graph 4/254
+Running dot for graph 5/254
+warning: the dot tool could not be found at C:\Program Files (x86)\Graphviz2.38
+C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Sand.java:34: warning: argument 'g' of command @param is not found in the argument list of Sand::tick()
+C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/src/supermariobros/tile/Special.java:28: warning: The following parameters of supermariobros.tile.Special.Special(int x, int y, int width, int height, boolean solid, Id id, Handler handler, Entity contain) are not documented:
+  parameter 'contain'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a0fa45971107f025221264388f202d463_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a0fa45971107f025221264388f202d463_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a0fa45971107f025221264388f202d463_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a0fa45971107f025221264388f202d463_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a0fa45971107f025221264388f202d463_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a0fa45971107f025221264388f202d463_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a0fa45971107f025221264388f202d463_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a0fa45971107f025221264388f202d463_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a187945475e730bfa340a10f63224e91f_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a187945475e730bfa340a10f63224e91f_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a187945475e730bfa340a10f63224e91f_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a187945475e730bfa340a10f63224e91f_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a187945475e730bfa340a10f63224e91f_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a187945475e730bfa340a10f63224e91f_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a187945475e730bfa340a10f63224e91f_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a187945475e730bfa340a10f63224e91f_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a9dae215281debcdb34e83e5673edc833_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a9dae215281debcdb34e83e5673edc833_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a9dae215281debcdb34e83e5673edc833_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a9dae215281debcdb34e83e5673edc833_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a9dae215281debcdb34e83e5673edc833_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a9dae215281debcdb34e83e5673edc833_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a9dae215281debcdb34e83e5673edc833_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a9dae215281debcdb34e83e5673edc833_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_aae30a06bffab3ffe4b3ca1aeb458e3cf_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_aae30a06bffab3ffe4b3ca1aeb458e3cf_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_aae30a06bffab3ffe4b3ca1aeb458e3cf_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_aae30a06bffab3ffe4b3ca1aeb458e3cf_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_aae30a06bffab3ffe4b3ca1aeb458e3cf_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_aae30a06bRunning dot for graph 6/254
+Running dot for graph 7/254
+Running dot for graph 8/254
+Running dot for graph 9/254
+Running dot for graph 10/254
+Running dot for graph 11/254
+Running dot for graph 12/254
+Running dot for graph 13/254
+Running dot for graph 14/254
+Running dot for graph 15/254
+Running dot for graph 16/254
+Running dot for graph 17/254
+Running dot for graph 18/254
+Running dot for graph 19/254
+Running dot for graph 20/254
+Running dot for graph 21/254
+Running dot for graph 22/254
+Running dot for graph 23/254
+Running dot for graph 24/254
+Running dot for graph 25/254
+Running dot for graph 26/254
+ffab3ffe4b3ca1aeb458e3cf_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_aae30a06bffab3ffe4b3ca1aeb458e3cf_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_aae30a06bffab3ffe4b3ca1aeb458e3cf_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a065adfb7c0de9871a876ed2c488388fe_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a065adfb7c0de9871a876ed2c488388fe_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a065adfb7c0de9871a876ed2c488388fe_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a065adfb7c0de9871a876ed2c488388fe_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a065adfb7c0de9871a876ed2c488388fe_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a065adfb7c0de9871a876ed2c488388fe_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a065adfb7c0de9871a876ed2c488388fe_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a065adfb7c0de9871a876ed2c488388fe_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a5b449d49016d6c26db2f624d0a182ee9_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a5b449d49016d6c26db2f624d0a182ee9_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a5b449d49016d6c26db2f624d0a182ee9_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a5b449d49016d6c26db2f624d0a182ee9_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a5b449d49016d6c26db2f624d0a182ee9_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a5b449d49016d6c26db2f624d0a182ee9_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a5b449d49016d6c26db2f624d0a182ee9_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a5b449d49016d6c26db2f624d0a182ee9_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_ae3d429b71532e0189b2a751d3b66f791_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_ae3d429b71532e0189b2a751d3b66f791_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_ae3d429b71532e0189b2a751d3b66f791_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_ae3d429b71532e0189b2a751d3b66f791_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_abc262cf0c2361b2d3ef2f73135fa52ba_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_abc262cf0c2361b2d3ef2f73135fa52ba_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_abc262cf0c2361b2d3ef2f73135fa52ba_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_abc262cf0c2361b2d3ef2f73135fa52ba_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_ae13f88e922e1339355456062ad9fa359_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_ae13f88e922e1339355456062ad9fa359_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_ae13f88e922e1339355456062ad9fa359_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_ae13f88e922e1339355456062ad9fa359_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_aab81944f0a14bba932c0931899951937_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_aab81944f0a14bba932c0931899951937_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_aab81944f0a14bba932c0931899951937_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_aab81944f0a14bba932c0931899951937_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a26ce3e0b7abe11a28de80375142d47c0_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a26ce3e0b7abe11a28de80375142d47c0_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a26ce3e0b7abe11a28de80375142d47c0_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a26ce3e0b7abe11a28de80375142d47c0_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a88ade8061b075519721073eadd125fcc_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMRunning dot for graph 27/254
+Running dot for graph 28/254
+Running dot for graph 29/254
+Running dot for graph 30/254
+Running dot for graph 31/254
+Running dot for graph 32/254
+Running dot for graph 33/254
+Running dot for graph 34/254
+Running dot for graph 35/254
+Running dot for graph 36/254
+Running dot for graph 37/254
+Running dot for graph 38/254
+Running dot for graph 39/254
+Running dot for graph 40/254
+Running dot for graph 41/254
+Running dot for graph 42/254
+Running dot for graph 43/254
+Running dot for graph 44/254
+Running dot for graph 45/254
+Running dot for graph 46/254
+Running dot for graph 47/254
+Running dot for graph 48/254
+Running dot for graph 49/254
+Running dot for graph 50/254
+arioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a88ade8061b075519721073eadd125fcc_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a88ade8061b075519721073eadd125fcc_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classmariobros_1_1entity_1_1_entity_a88ade8061b075519721073eadd125fcc_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_ae13f88e922e1339355456062ad9fa359_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_ae13f88e922e1339355456062ad9fa359_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_ae13f88e922e1339355456062ad9fa359_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_ae13f88e922e1339355456062ad9fa359_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_aab81944f0a14bba932c0931899951937_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_aab81944f0a14bba932c0931899951937_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_aab81944f0a14bba932c0931899951937_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_aab81944f0a14bba932c0931899951937_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_add2578ea6b65ad27a905a6d2048748bb_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_add2578ea6b65ad27a905a6d2048748bb_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_add2578ea6b65ad27a905a6d2048748bb_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_add2578ea6b65ad27a905a6d2048748bb_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_adea78a9ff1234e75627dda61d972213b_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_adea78a9ff1234e75627dda61d972213b_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_adea78a9ff1234e75627dda61d972213b_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_adea78a9ff1234e75627dda61d972213b_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_a88e04e20bc9c5e1ac1a00194b45a724d_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_a88e04e20bc9c5e1ac1a00194b45a724d_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_a88e04e20bc9c5e1ac1a00194b45a724d_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_a88e04e20bc9c5e1ac1a00194b45a724d_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_a88e04e20bc9c5e1ac1a00194b45a724d_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_camera_a88e04e20bc9c5e1ac1a00194b45a724d_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_a88e04e20bc9c5e1ac1a00194b45a724d_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_camera_a88e04e20bc9c5e1ac1a00194b45a724d_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a98d87ba6bde3f389e92664a2ef9bfcb1_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a98d87ba6bde3f389e92664a2ef9bfcb1_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a98d87ba6bde3f389e92664a2ef9bfcb1_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a98d87ba6bde3f389e92664a2ef9bfcb1_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a02fd73d861ef2e4aabb38c0c9ff82947_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a02fd73d861ef2e4aabb38c0c9ff82947_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a02fd73d861ef2e4aabb38c0c9ff82947_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a02fd73d861ef2e4aabb38c0c9ff82947_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a75988cf84fc6ee7a2ebff36e363021aa_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a75988cf84fc6ee7a2ebff36e363021aa_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a75988cf84fc6ee7a2ebff36e363021aa_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a75988cf84fc6ee7a2ebff36e363021aa_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a7d9edd8b0a8d0d2f737eb5ee0b0a5040_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a7d9edd8b0a8d0d2f737eb5ee0b0a5040_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a7d9edd8b0a8d0d2f737eb5ee0b0a5040_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a7d9edd8b0a8d0d2f737eb5ee0b0a5040_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a7d9edd8b0a8d0d2f737eb5ee0b0a5040_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a7d9edd8b0a8d0d2f737eb5ee0b0a5040_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a7d9edd8b0a8d0d2f737eb5ee0b0a5040_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a7d9edd8b0a8d0d2f737eb5ee0b0a5040_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a13a43e6d814de94978c515cb084873b1_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a13a43e6d814de94978c515cb084873b1_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a13a43e6d814de94978c515cb084873b1_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a13a43e6d814de94978c515cb084873b1_cgraph.pdf"'
+error: Problems running dot: exit code=-1, commandRunning dot for graph 51/254
+Running dot for graph 52/254
+Running dot for graph 53/254
+Running dot for graph 54/254
+Running dot for graph 55/254
+Running dot for graph 56/254
+Running dot for graph 57/254
+Running dot for graph 58/254
+Running dot for graph 59/254
+Running dot for graph 60/254
+Running dot for graph 61/254
+Running dot for graph 62/254
+Running dot for graph 63/254
+Running dot for graph 64/254
+Running dot for graph 65/254
+Running dot for graph 66/254
+Running dot for graph 67/254
+Running dot for graph 68/254
+Running dot for graph 69/254
+Running dot for graph 70/254
+Running dot for graph 71/254
+Running dot for graph 72/254
+Running dot for graph 73/254
+Running dot for graph 74/254
+Running dot for graph 75/254
+Running dot for graph 76/254
+='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_ae3e5313b36e6f003857174584df1753e_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_ae3e5313b36e6f003857174584df1753e_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_ae3e5313b36e6f003857174584df1753e_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_ae3e5313b36e6f003857174584df1753e_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a873dd91783f9efb4a590aded1f70d6b0_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a873dd91783f9efb4a590aded1f70d6b0_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a4bcef6dec76484d625984ace718f36fd_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a4bcef6dec76484d625984ace718f36fd_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a873dd91783f9efb4a590aded1f70d6b0_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a873dd91783f9efb4a590aded1f70d6b0_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a4bcef6dec76484d625984ace718f36fd_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_game_a4bcef6dec76484d625984ace718f36fd_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a873dd91783f9efb4a590aded1f70d6b0_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_game_a873dd91783f9efb4a590aded1f70d6b0_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a500ef33770ffef90c107f1d1cdad4e40_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a500ef33770ffef90c107f1d1cdad4e40_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a500ef33770ffef90c107f1d1cdad4e40_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a500ef33770ffef90c107f1d1cdad4e40_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a33a6cdb9aace56a089de09a9b7c851a2_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a33a6cdb9aace56a089de09a9b7c851a2_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a33a6cdb9aace56a089de09a9b7c851a2_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a33a6cdb9aace56a089de09a9b7c851a2_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a3e43041b7ba1088640e8464d013f9d25_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a3e43041b7ba1088640e8464d013f9d25_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a3e43041b7ba1088640e8464d013f9d25_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a3e43041b7ba1088640e8464d013f9d25_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a73294349cef133a3fb39d83db5397f6d_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a73294349cef133a3fb39d83db5397f6d_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a73294349cef133a3fb39d83db5397f6d_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a73294349cef133a3fb39d83db5397f6d_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a73294349cef133a3fb39d83db5397f6d_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a73294349cef133a3fb39d83db5397f6d_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a73294349cef133a3fb39d83db5397f6d_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a73294349cef133a3fb39d83db5397f6d_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_ab30944dd1cd0475d0ee6139d53f0587e_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBrosRunning dot for graph 77/254
+Running dot for graph 78/254
+Running dot for graph 79/254
+Running dot for graph 80/254
+Running dot for graph 81/254
+Running dot for graph 82/254
+Running dot for graph 83/254
+Running dot for graph 84/254
+Running dot for graph 85/254
+Running dot for graph 86/254
+Running dot for graph 87/254
+Running dot for graph 88/254
+Running dot for graph 89/254
+Running dot for graph 90/254
+Running dot for graph 91/254
+Running dot for graph 92/254
+Running dot for graph 93/254
+Running dot for graph 94/254
+Running dot for graph 95/254
+Running dot for graph 96/254
+Running dot for graph 97/254
+Running dot for graph 98/254
+Running dot for graph 99/254
+Running dot for graph 100/254
+Running dot for graph 101/254
+Running dot for graph 102/254
+Running dot for graph 103/254
+Running dot for graph 104/254
+Running dot for graph 105/254
+Running dot for graph 106/254
+1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_ab30944dd1cd0475d0ee6139d53f0587e_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_ab30944dd1cd0475d0ee6139d53f0587e_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_ab30944dd1cd0475d0ee6139d53f0587e_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a37a1e89eb53a27dbeca43f242ed84bf1_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a37a1e89eb53a27dbeca43f242ed84bf1_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a37a1e89eb53a27dbeca43f242ed84bf1_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a37a1e89eb53a27dbeca43f242ed84bf1_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a203b6ad9d5e4d54dd1152986eec4dedc_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a203b6ad9d5e4d54dd1152986eec4dedc_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a203b6ad9d5e4d54dd1152986eec4dedc_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a203b6ad9d5e4d54dd1152986eec4dedc_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a873dd91783f9efb4a590aded1f70d6b0_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1_handler_a873dd91783f9efb4a590aded1f70d6b0_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a873dd91783f9efb4a590aded1f70d6b0_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1_handler_a873dd91783f9efb4a590aded1f70d6b0_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/enumsupermariobros_1_1_id__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/enumsupermariobros_1_1_id__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/enumsupermariobros_1_1_id__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/enumsupermariobros_1_1_id__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_goomba__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_goomba__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_goomba__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_goomba__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_goomba__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_goomba__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_goomba_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_goomba_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_goomba__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_goomba__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_goomba_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_goomba_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_goomba_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_goomba_a873dd91783f9efb4a590aded1f70d6b0_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_goomba_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_goomba_a873dd91783f9efb4a590aded1f70d6b0_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_koopa__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_koopa__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_koopa__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_koopa__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_koopa__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_koopa__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_koopa_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_koopa_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_koopa__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_koopa__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_koopa_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_koopa_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_koopa_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_koopa_a873dd91783f9efb4a590aded1f70d6b0_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_koopa_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_koopa_a873dd91783f9efb4a590aded1f70d6b0_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_player__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_player__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_player__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_player__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_player__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_player__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobrRunning dot for graph 107/254
+Running dot for graph 108/254
+Running dot for graph 109/254
+Running dot for graph 110/254
+Running dot for graph 111/254
+Running dot for graph 112/254
+Running dot for graph 113/254
+Running dot for graph 114/254
+Running dot for graph 115/254
+Running dot for graph 116/254
+Running dot for graph 117/254
+Running dot for graph 118/254
+Running dot for graph 119/254
+Running dot for graph 120/254
+Running dot for graph 121/254
+Running dot for graph 122/254
+Running dot for graph 123/254
+Running dot for graph 124/254
+Running dot for graph 125/254
+Running dot for graph 126/254
+Running dot for graph 127/254
+Running dot for graph 128/254
+Running dot for graph 129/254
+Running dot for graph 130/254
+Running dot for graph 131/254
+Running dot for graph 132/254
+Running dot for graph 133/254
+Running dot for graph 134/254
+Running dot for graph 135/254
+os_1_1entity_1_1mob_1_1_player__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_player__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_player_a4cb030b1bee7788859a326d97d7c1ac0_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_player_a4cb030b1bee7788859a326d97d7c1ac0_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_player_a4cb030b1bee7788859a326d97d7c1ac0_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_player_a4cb030b1bee7788859a326d97d7c1ac0_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_player_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_player_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_player_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_player_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_player_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1entity_1_1mob_1_1_player_a873dd91783f9efb4a590aded1f70d6b0_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_player_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1entity_1_1mob_1_1_player_a873dd91783f9efb4a590aded1f70d6b0_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_a2afa8ad3310f47b25fffda170ece05c7_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_a2afa8ad3310f47b25fffda170ece05c7_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_a2afa8ad3310f47b25fffda170ece05c7_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_a2afa8ad3310f47b25fffda170ece05c7_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_a3c234430b5d6ed610d42efa284bd538d_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_a3c234430b5d6ed610d42efa284bd538d_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_a3c234430b5d6ed610d42efa284bd538d_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_a3c234430b5d6ed610d42efa284bd538d_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_afa3342ec5ebbae0ae62f39bb94e72dc6_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_afa3342ec5ebbae0ae62f39bb94e72dc6_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_afa3342ec5ebbae0ae62f39bb94e72dc6_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_afa3342ec5ebbae0ae62f39bb94e72dc6_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_a9da295dc2b0e480d821419ff0fb4e7d8_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_a9da295dc2b0e480d821419ff0fb4e7d8_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_a9da295dc2b0e480d821419ff0fb4e7d8_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_a9da295dc2b0e480d821419ff0fb4e7d8_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_afa447f546d72f6a5805febaff94c2815_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_afa447f546d72f6a5805febaff94c2815_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look Running dot for graph 136/254
+Running dot for graph 137/254
+Running dot for graph 138/254
+Running dot for graph 139/254
+Running dot for graph 140/254
+Running dot for graph 141/254
+Running dot for graph 142/254
+Running dot for graph 143/254
+Runnat me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_ab4c8b95b616edc9fed6460061d78f15d_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_ab4c8b95b616edc9fed6460061d78f15d_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_ab4c8b95b616edc9fed6460061d78f15d_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_ab4c8b95b616edc9fed6460061d78f15d_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_afa447f546d72f6a5805febaff94c2815_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_afa447f546d72f6a5805febaff94c2815_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_a96613c34a7cfb5341cc3c6a4fe3612a1_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_a96613c34a7cfb5341cc3c6a4fe3612a1_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_a96613c34a7cfb5341cc3c6a4fe3612a1_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_a96613c34a7cfb5341cc3c6a4fe3612a1_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_ab4c0598e623f8c861d8b50e0eff1ebfc_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1gfx_1_1_sprite_sheet_ab4c0598e623f8c861d8b50e0eff1ebfc_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_ab4c0598e623f8c861d8b50e0eff1ebfc_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1gfx_1_1_sprite_sheet_ab4c0598e623f8c861d8b50e0eff1ebfc_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1input_1_1_key_input__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1input_1_1_key_input__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1input_1_1_key_input__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1input_1_1_key_input__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1input_1_1_key_input__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1input_1_1_key_input__coll__graph.png"'
+error: Problems running dot: exit code=-1, commaning dot for graph 144/254
+Running dot for graph 145/254
+Running dot for graph 146/254
+Running dot for graph 147/254
+Running dot for graph 148/254
+Running dot for graph 149/254
+Running dot for graph 150/254
+Running dot for graph 151/254
+Running dot for graph 152/254
+Running dot for graph 153/254
+Running dot for graph 154/254
+Running dot for graph 155/254
+Running dot for graph 156/254
+d='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1input_1_1_key_input__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1input_1_1_key_input__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1input_1_1_key_input_af9e79ab3bcfe3fa9df90b04135486f5b_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1input_1_1_key_input_af9e79ab3bcfe3fa9df90b04135486f5b_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1input_1_1_key_input_aa12eb1084be2c4d9b03d5f248f00900d_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1input_1_1_key_input_aa12eb1084be2c4d9b03d5f248f00900d_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1input_1_1_key_input_aa12eb1084be2c4d9b03d5f248f00900d_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1input_1_1_key_input_aa12eb1084be2c4d9b03d5f248f00900d_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1input_1_1_key_input_af9e79ab3bcfe3fa9df90b04135486f5b_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1input_1_1_key_input_af9e79ab3bcfe3fa9df90b04135486f5b_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_flower__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_flower__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_flower__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_flower__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_flower__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_flower__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_flower__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_flower__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_flower_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_flower_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_flower_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_flower_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_mushroom__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_mushroom__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_mushroom__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_mushroom__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_mushroom__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_mushroom__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_mushroom__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_mushroom__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_mushroom_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_mushroom_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_mushroom_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_mushroom_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_mushroom_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_mushroom_a873dd91783f9efb4a590aded1f70d6b0_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_mushroom_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_mushroom_a873dd91783f9efb4a590aded1f70d6b0_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_star__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_star__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_star__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsRunning dot for graph 157/254
+Running dot for graph 158/254
+Running dot for graph 159/254
+Running dot for graph 160/254
+Running dot for graph 161/254
+Running dot for graph 162/254
+Running dot for graph 163/254
+Running dot for graph 164/254
+Running dot for graph 165/254
+Running dot for graph 166/254
+Running dot for graph 167/254
+Running dot for graph 168/254
+Running dot for graph 169/254
+Running dot for graph 170/254
+Running dot for graph 171/254
+Running dot for graph 172/254
+Running dot for graph 173/254
+Running dot for graph 174/254
+Running dot for graph 175/254
+Running dot for graph 176/254
+Running dot for graph 177/254
+Running dot for graph 178/254
+Running dot for graph 179/254
+Running dot for graph 180/254
+Running dot for graph 181/254
+Running dot for graph 182/254
+Running dot for graph 183/254
+Running dot for graph 184/254
+upermariobros_1_1items_1_1_star__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_star__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_star__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_star__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_star__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_star_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_star_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_star_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_star_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_star_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1items_1_1_star_a873dd91783f9efb4a590aded1f70d6b0_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_star_a873dd91783f9efb4a590aded1f70d6b0_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1items_1_1_star_a873dd91783f9efb4a590aded1f70d6b0_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_bottom___tube__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_bottom___tube__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_bottom___tube__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_bottom___tube__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_bottom___tube__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_bottom___tube__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_bottom___tube_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_bottom___tube_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_bottom___tube_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_bottom___tube_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_brick__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_brick__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_bottom___tube__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_bottom___tube__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_brick__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_brick__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_brick__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_brick__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_brick__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_brick__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_brick_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_brick_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_grass__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_grass__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_grass__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_grass__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_grass__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_grass__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_grass__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_grass__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_brick_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_brick_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_grass_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_grass_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_sand__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_sand__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_sand__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_sand__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_sand__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_sand__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_sand__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_sand__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_grass_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_grass_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_sand_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_sand_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_sand_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_sand_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_special__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_special__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_special__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/TecnoRunning dot for graph 185/254
+Running dot for graph 186/254
+Running dot for graph 187/254
+Running dot for graph 188/254
+Running dot for graph 189/254
+Running dot for graph 190/254
+Running dot for graph 191/254
+Running dot for graph 192/254
+Running dot for graph 193/254
+Running dot for graph 194/254
+Running dot for graph 195/254
+Running dot for graph 196/254
+Running dot for graph 197/254
+Running dot for graph 198/254
+Running dot for graph 199/254
+Running dot for graph 200/254
+Running dot for graph 201/254
+Running dot for graph 202/254
+Running dot for graph 203/254
+Running dot for graph 204/254
+Running dot for graph 205/254
+Running dot for graph 206/254
+Running dot for graph 207/254
+Running dot for graph 208/254
+Running dot for graph 209/254
+logie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_special__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_special__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_special__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_special__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_special__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_special_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_special_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_special_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_special_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a0fa45971107f025221264388f202d463_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a0fa45971107f025221264388f202d463_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a0fa45971107f025221264388f202d463_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a0fa45971107f025221264388f202d463_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a0fa45971107f025221264388f202d463_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a0fa45971107f025221264388f202d463_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a0fa45971107f025221264388f202d463_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a0fa45971107f025221264388f202d463_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a187945475e730bfa340a10f63224e91f_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a187945475e730bfa340a10f63224e91f_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a187945475e730bfa340a10f63224e91f_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a187945475e730bfa340a10f63224e91f_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a187945475e730bfa340a10f63224e91f_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a187945475e730bfa340a10f63224e91f_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a187945475e730bfa340a10f63224e91f_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a187945475e730bfa340a10f63224e91f_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a6270a61da43d2c5fdca85c3617a1beb6_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a6270a61da43d2c5fdca85c3617a1beb6_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a6270a61da43d2c5fdca85c3617a1beb6_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a6270a61da43d2c5fdca85c3617a1beb6_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_ae13f88e922e1339355456062ad9fa359_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_ae13f88e922e1339355456062ad9fa359_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_ae13f88e922e1339355456062ad9fa359_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_ae13f88e922e1339355456062ad9fa359_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at Running dot for graph 210/254
+Running dot for graph 211/254
+Running dot for graph 212/254
+Running dot for graph 213/254
+Running dot for graph 214/254
+Running dot for graph 215/254
+Running dot for graph 216/254
+Running dot for graph 217/254
+Running dot for graph 218/254
+Running dot for graph 219/254
+Running dot for graph 220/254
+Running dot for graph 221/254
+Running dot for graph 222/254
+Running dot for graph 223/254
+Running dot for graph 224/254
+Running dot for graph 225/254
+Running dot for graph 226/254
+Running dot for graph 227/254
+Running dot for graph 228/254
+Running dot for graph 229/254
+Running dot for graph 230/254
+Running dot for graph 231/254
+me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_aab81944f0a14bba932c0931899951937_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_aab81944f0a14bba932c0931899951937_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_aab81944f0a14bba932c0931899951937_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_aab81944f0a14bba932c0931899951937_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_ac130ad33420c50ffa38eed6a2056c873_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_ac130ad33420c50ffa38eed6a2056c873_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a9b2ef9e01df450b5d0a8ec9ba8d332c9_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_a9b2ef9e01df450b5d0a8ec9ba8d332c9_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a9b2ef9e01df450b5d0a8ec9ba8d332c9_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_a9b2ef9e01df450b5d0a8ec9ba8d332c9_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_ac130ad33420c50ffa38eed6a2056c873_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_ac130ad33420c50ffa38eed6a2056c873_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_ac1aa82cd85d51e05b8f3bf3356131f61_icgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_tile_ac1aa82cd85d51e05b8f3bf3356131f61_icgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_ac1aa82cd85d51e05b8f3bf3356131f61_icgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_tile_ac1aa82cd85d51e05b8f3bf3356131f61_icgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_top___tube__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_top___tube__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_top___tube__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_top___tube__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_top___tube__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_top___tube__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_top___tube__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_top___tube__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_top___tube_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_top___tube_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_top___tube_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_top___tube_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_wall__inherit__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_wall__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_wall__coll__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_wall__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_wall__coll__graph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_wall__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_wall__inherit__graph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_wall__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_wall_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classsupermariobros_1_1tile_1_1_wall_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_wall_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.dot" -Tpdf -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/latex/classsupermariobros_1_1tile_1_1_wall_a203b6ad9d5e4d54dd1152986eec4dedc_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/graph_legend.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/graph_legend.png"'
+error: Problems running dot: exit code=-1, command=Running dot for graph 232/254
+Running dot for graph 233/254
+Running dot for graph 234/254
+Running dot for graph 235/254
+Running dot for graph 236/254
+Running dot for graph 237/254
+Running dot for graph 238/254
+Running dot for graph 239/254
+Running dot for graph 240/254
+Running dot for graph 241/254
+Running dot for graph 242/254
+Running dot for graph 243/254
+Running dot for graph 244/254
+Running dot for graph 245/254
+Running dot for graph 246/254
+Running dot for graph 247/254
+Running dot for graph 248/254
+Running dot for graph 249/254
+Running dot for graph 250/254
+Running dot for graph 251/254
+Running dot for graph 252/254
+Running dot for graph 253/254
+Running dot for graph 254/254
+Patching output file 1/45
+'dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_1.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_1.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_0.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_0.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_3.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_3.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_2.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_2.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_4.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_4.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_5.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_5.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_6.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_6.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_7.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_7.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_8.dot" -Tpng -o "C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/inherit_graph_8.png"'
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a0fa45971107f025221264388f202d463_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a0fa45971107f025221264388f202d463_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a187945475e730bfa340a10f63224e91f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a187945475e730bfa340a10f63224e91f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a9dae215281debcdb34e83e5673edc833_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a9dae215281debcdb34e83e5673edc833_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_aae30a06bffab3ffe4b3ca1aeb458e3cf_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_aae30a06bffab3ffe4b3ca1aeb458e3cf_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a065adfb7c0de9871a876ed2c488388fe_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a065adfb7c0de9871a876ed2c488388fe_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a5b449d49016d6c26db2f624d0a182ee9_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a5b449d49016d6c26db2f624d0a182ee9_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_ae3d429b71532e0189b2a751d3b66f791_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_abc262cf0c2361b2d3ef2f73135fa52ba_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_ae13f88e922e1339355456062ad9fa359_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failingPatching output file 2/45
+lookup cache used 668/65536 hits=3926 misses=712
+finished...
+ run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_aab81944f0a14bba932c0931899951937_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a26ce3e0b7abe11a28de80375142d47c0_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file C:/$$$$ Look at me 4Binfo $$$$/Tecnologie/SuperMarioBros1/SuperMarioBros/html/html/classmariobros_1_1entity_1_1_entity_a88ade8061b075519721073eadd125fcc_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problem writing FIG 0 figure!
+*** Doxygen has finished
