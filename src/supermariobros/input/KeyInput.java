@@ -12,20 +12,32 @@ import supermariobros.Id;
 
 public class KeyInput implements KeyListener {
 
+    /**
+        @brief KeytYped
+        * 
+        * @param e di tipo KeyEvent
+    **/
     @Override
     public void keyTyped(KeyEvent e) {
         
     }
 
+    /**
+        @brief keyPressed, gestisce pressione tasto
+        * 
+        * gestisce la pressione di un tasto
+        * 
+        * @param e di tipo KeyEvent
+    **/
     @Override
     public void keyPressed(KeyEvent e) {
         int key = e.getKeyCode();
         for (Entity en : Game.handler.entity)
         {
-            if(en.getId()== Id.player){
+            if(en.getId()== Id.player){  //se l'id dell'entità è uguale a quello del giocatore
                 switch (key) {
                     case KeyEvent.VK_W:
-                        if(!en.jumping)
+                        if(!en.jumping) 
                         {
                             en.jumping=true;
                             en.gravity=8.0;
@@ -48,6 +60,14 @@ public class KeyInput implements KeyListener {
         }
     }
 
+    
+    /**
+        @brief keyReleased, gestisce pressione tasto
+        * 
+        * gestisce il rilascio di un tasto
+        * 
+        * @param e di tipo KeyEvent
+    **/
     @Override
     public void keyReleased(KeyEvent e) {
         int key = e.getKeyCode();

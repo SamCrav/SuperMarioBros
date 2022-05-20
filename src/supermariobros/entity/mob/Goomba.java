@@ -31,6 +31,8 @@ public class Goomba extends Entity {
 
     //int dir = random.nextInt(2);
 
+    
+    
     public void render(Graphics g) {
         /*switch (dir) {
             case 0:

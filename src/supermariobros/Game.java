@@ -32,9 +32,13 @@ import supermariobros.input.KeyInput;
  */
 public class Game extends Canvas implements Runnable {
 
+    /**variabili intere width e height, larghezza e altezza, impostato valori*/
     public static final int WIDTH = 270;
     public static final int HEIGHT = WIDTH / 14 * 10;
+    
+    /**variabile intera static final scale, impostato valore a 4*/
     public static final int SCALE = 4;
+    /**variabile stringa static final title, impostato valore a Mario*/
     public static final String TITLE = "Mario";
 
     private Thread thread;
@@ -44,6 +48,8 @@ public class Game extends Canvas implements Runnable {
 
     public static Camera cam;
 
+    
+    /**tutti gli elementi presenti nel gioco impostati come varibiali pubbliche statiche di tipo SpriteSheet*/
     public static SpriteSheet mario;
     public static SpriteSheet goomba_sheet;
     public static SpriteSheet koopa_sheet;
@@ -71,6 +77,14 @@ public class Game extends Canvas implements Runnable {
     public static Sprite[] shell = new Sprite[3];
     public static Sprite mushroom;
 
+    
+    /**
+        @brief Game
+        Dimension size = new Dimension(WIDTH * SCALE, HEIGHT * SCALE);
+        setPreferredSize(size);
+        setMaximumSize(size);
+        setMinimumSize(size);
+    **/
     public Game() {
         Dimension size = new Dimension(WIDTH * SCALE, HEIGHT * SCALE);
         setPreferredSize(size);
@@ -78,6 +92,12 @@ public class Game extends Canvas implements Runnable {
         setMinimumSize(size);
     }
     
+    /**
+        @brief public void init()
+        * 
+        * 
+        * 
+    **/
     public void init(){
         handler = new Handler();
         mario=new SpriteSheet("/resources/images/mario/MarioSheet.png");
@@ -135,6 +155,12 @@ public class Game extends Canvas implements Runnable {
         }
     }
     
+    /**
+        @brief inizio
+        * 
+        * inizia il gioco
+        * 
+    **/
     public synchronized void start() {
         if(running)return;
         running=true;
@@ -142,6 +168,12 @@ public class Game extends Canvas implements Runnable {
         thread.start();
     }
 
+    /**
+        @brief fine
+        * 
+        * finisce il gioco
+        * 
+    **/
     public synchronized void stop() {
         if(!running)return;
         running=false;
@@ -152,6 +184,13 @@ public class Game extends Canvas implements Runnable {
         }
     }
 
+    
+    /**
+        @brief run
+        * 
+        * implementa il gioco
+        * 
+    **/
     @Override
     public void run() {
         init();
@@ -182,6 +221,12 @@ public class Game extends Canvas implements Runnable {
         stop();
     }
     
+    /**
+        @brief aggiorna tile
+        * 
+        * aggiorna il tile e visualizza
+        * 
+    **/
     public void render(){
         BufferStrategy bs = getBufferStrategy();
         if(bs==null){
@@ -197,6 +242,12 @@ public class Game extends Canvas implements Runnable {
         bs.show();
     }
     
+    /**
+        @brief aggiorna
+        * 
+        * aggiornamento dei parametri dell'oggetto
+        * 
+    **/
     public void tick(){
         handler.tick();
 
@@ -207,10 +258,27 @@ public class Game extends Canvas implements Runnable {
         }
     }
 
+    /**
+        @brief getter frameWidth
+        * 
+        * restituisce valore del Width*Scale
+        * 
+        * @return Width*Scale
+        * 
+    **/
     public int getFrameWidth(){
         return WIDTH*SCALE;
     }
 
+    
+    /**
+        @brief getter frameHeight
+        * 
+        * restituisce valore del height*Scale
+        * 
+        * @return height*Scale
+        * 
+    **/
     public int getFrameHeight(){
         return HEIGHT*SCALE;
     }
@@ -219,6 +287,13 @@ public class Game extends Canvas implements Runnable {
      * @param args the command line arguments
      */
 
+    
+    /**
+        @brief avvia il gioco
+        * 
+        * avvia il gioco con il debug
+        * 
+    **/
     public static void main(String args[]) {
         Game game = new Game();
         JFrame frame = new JFrame(TITLE);
@@ -230,5 +305,4 @@ public class Game extends Canvas implements Runnable {
         frame.setVisible(true);
         game.start();
     }
-
 }

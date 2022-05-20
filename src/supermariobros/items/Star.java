@@ -41,6 +41,11 @@ public class Star extends Entity
         g.drawImage(Game.mushroom.getBufferedImage(),x,y,width,height,null);
     }
 
+    /**
+        @brief aggiorna parametri
+
+        aggiorna i parametri dell'oggetto
+    **/
     public void tick()
     {
         x+=velX;
